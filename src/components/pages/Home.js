@@ -1,5 +1,7 @@
 import React from "react";
-import meinpink from "../assets/meinpink.jpg"
+import meinpink from "../assets/meinpink.jpg";
+import unsplashPhotoHome from "../assets/unsplashPhotoHome.jpg";
+
 const styles = {
     homeStyle: {
         background: "grey",
@@ -20,12 +22,17 @@ const styles = {
         marginLeft: "5%",
         boxShadow: "10px 9px 2px 2px rgba(15, 15, 15, 0.73)"
 
+    },
+    imageHomeStyle:{
+        backgroundSize: "cover;",
+        width: "100%"
     }
 }
 const Home = () => (
-  <div> 
+    <><img style={styles.imageHomeStyle} src={unsplashPhotoHome} alt="name"/>
+  
   <div style={styles.homeStyle} className="header">
-      <div className="container">
+      <div className="container" >
         <div className="masthead">
           <img style={styles.imageStyle} src={meinpink} alt="name"/>
         </div>
@@ -34,7 +41,8 @@ const Home = () => (
         <a className="btn" href="#aboutMe"> About Me</a>
       </div>
     </div>
-    </div>
+   
+    </>
 );
 
 export default Home;
