@@ -13,7 +13,6 @@ const styles = {
     },
     imageStyle: {
         height: "300px",
-        // float: "left",
         borderRadius: "90px",
         marginTop: "50px",
         marginLeft: "5%",
@@ -22,7 +21,7 @@ const styles = {
     },
     pStyle: {
         color: "white",
-        marginTop: "200px",
+        marginTop: "140px",
         textAlign: "center",
         fontSize: "50px"
     }
