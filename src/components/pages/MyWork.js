@@ -21,7 +21,7 @@ const MyWork = () => (
                 <h2 className="textColor mtb-30">Weather Dahsboard</h2>
 
                 <p className="mtb-30"> This app was created using HTML, CSS, JavaScript and an API. Most of the elements were created dynamically. This app will generate the current weather and a 5-day forecast.</p>
-                <h5 className="mtb-30">Click Image<a className="mtb-30" href="https://myrlaf25.github.io/myweatherapp/."><img src={Weather} alt="weather"/></a></h5>
+                <h5 className="mtb-30">Click Image<a className="mtb-30" href="https://myrlaf25.github.io/myweatherapp/."><img className="mtb-10" src={Weather} alt="weather"/></a></h5>
                 <p className="mtb-30"><a href="https://github.com/myrlaf25/myweatherapp">Weather Repo</a></p>
     </div> 
     <div className="project1">          
@@ -32,7 +32,7 @@ const MyWork = () => (
             <p className="mtb-30">We used HTML, CSS, Javascript, and 3 different APIs. The app generate a random picture of a puppy,
             a random joke, the current weather, and a 5 day forecast. </p>
 
-            <h5 className="mtb-30">Click Image<a className="mtb-30" href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/"><img src={Project1} alt="project1"/></a></h5>
+            <h5 className="mtb-30">Click Image<a className="mtb-30" href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/"><img className="mtb-10" src={Project1} alt="project1"/></a></h5>
             <p className="mtb-30"><a href="https://github.com/kebiernat5/Dad-Joke-Pup-Forecast">Project 1 Repo</a> </p>
     </div>
     <div className="project2">
