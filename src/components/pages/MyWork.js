@@ -1,5 +1,7 @@
 import React from "react";
 import GithubLogo from "../assets/githublogo.png"
+import Weather from "../assets/weatherLogo.png"
+import Project1 from "../assets/project1.png"
 
 const MyWork = () => (
     <>
@@ -15,21 +17,22 @@ const MyWork = () => (
                         height="100"
                     /></a>
     <div className="weather">
-                <h2 className="mtb-10"> Weather Dashboard</h2>
+                
+                <h2 className="mtb-30">Weather Dahsboard</h2>
 
                 <p className="mtb-30"> This app was created using HTML, CSS, JavaScript and an API. Most of the elements were created dynamically. This app will generate the current weather and a 5-day forecast.</p>
-                <a className="mtb-30" href="https://myrlaf25.github.io/myweatherapp/.">Website Link</a>
+                <a className="mtb-30" href="https://myrlaf25.github.io/myweatherapp/."><img src={Weather} alt="weather"/></a>
                 <p className="mtb-30"> Link to the repo site:<a href="https://github.com/myrlaf25/myweatherapp">Weather Dashboard Repo</a></p>
     </div> 
     <div className="project1">          
 
-            <h2 className="mtb-10"> 1st Group Project</h2>
+            <h2 className="mtb-30">Group Project 1</h2>
 
             <h6 className="mtb-30"> Group Project Contributors: Kate Biernat, Breon Sparrow, Kyle Simone and myself.</h6>
             <p className="mtb-30">We used HTML, CSS, Javascript, and 3 different APIs. The app generate a random picture of a puppy,
             a random joke, the current weather, and a 5 day forecast. </p>
 
-            <h4><a className="mtb-30" href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/">Website Link</a></h4>
+            <h4><a className="mtb-30" href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/"><img src={Project1} alt="project1"/></a></h4>
             <p className="mtb-30"> Link to the repo site:<a href="https://github.com/kebiernat5/Dad-Joke-Pup-Forecast">Project 1 Repo</a> </p>
     </div>
     <div className="project2">
