@@ -5,7 +5,7 @@ const AboutMe = () => (
   <div className="container" >
   <div className="flexRow justify-sb align-center">
     <div>
-    <h1 className="textColor mtb-10">About Me</h1>
+    <h1 className="primaryColor mtb-10">About Me</h1>
     <p className="bold-700 mtb-10 font-25" >
     Hello, my name is Myrla Flores. I am new to the web development world.
     I am currently enrolled in the Full Stack Coding Bootcamp through the
