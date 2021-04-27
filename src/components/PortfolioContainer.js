@@ -21,7 +21,7 @@ class Portfolio extends Component {
     } else if (this.state.currentPage === "AboutMe") {
       return <AboutMe/>;
     } else if (this.state.currentPage === "MyWork") {
-      return <MyWork />;
+        return <MyWork/>;
     } else if (this.state.currentPage === "Skills") {
         return <Skills/>;
     } else {

@@ -1,21 +1,61 @@
 import React from "react";
+import GithubLogo from "../assets/githublogo.png"
 
 const MyWork = () => (
-  <div>
-    <h1>My Work</h1>
-    <p>
-      Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-      turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-      Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-      nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo
-      laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-      lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat
-      accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque vehicula sit
-      amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
-      iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-    </p>
-  </div>
+    <>
+        <div className="jumbotronWork"></div>
+            <div className="container">
+                <h2 className="mtb-30">My Work</h2>
+                <p className="textColor font-20 mtb-30 " >You may find my work at:</p>
+                <a className="btn" id="github" href="https://github.com/myrlaf25"
+                ><img
+                        src={GithubLogo}
+                        alt="github placeholder"
+                        width="200"
+                        height="100"
+                    /></a>
+    <div className="weather">
+                <h2 className="mtb-10"> Weather Dashboard</h2>
+
+                <p className="mtb-30"> This app was created using HTML, CSS, JavaScript and an API. Most of the elements were created dynamically. This app will generate the current weather and a 5-day forecast.</p>
+                <a className="mtb-30" href="https://myrlaf25.github.io/myweatherapp/.">Website Link</a>
+                <p className="mtb-30"> Link to the repo site:<a href="https://github.com/myrlaf25/myweatherapp">Weather Dashboard Repo</a></p>
+    </div> 
+    <div className="project1">          
+
+            <h2 className="mtb-10"> 1st Group Project</h2>
+
+            <h6 className="mtb-30"> Group Project Contributors: Kate Biernat, Breon Sparrow, Kyle Simone and myself.</h6>
+            <p className="mtb-30">We used HTML, CSS, Javascript, and 3 different APIs. The app generate a random picture of a puppy,
+            a random joke, the current weather, and a 5 day forecast. </p>
+
+            <h4><a className="mtb-30" href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/">Website Link</a></h4>
+            <p className="mtb-30"> Link to the repo site:<a href="https://github.com/kebiernat5/Dad-Joke-Pup-Forecast">Project 1 Repo</a> </p>
+    </div>
+    <div className="project2">
+            <h2 className="mtb-10"> 2nd Group Project</h2>
+
+
+
+            <h6 className="mtb-30"> Group Project Contributors: Triston Burns, Hanna Ferris and myself.</h6>
+            <p className="mtb-30">We used HTML, CSS, Javascript, API, MYSQL, Sequelize, Node.js, Express,js, email-validator, Handlebars. This is a job website. The user may post a job/hire someone who has posted a job. </p>
+
+            <h4><a className="mtb-30" href="https://gedditdone.herokuapp.com/">Website Link</a></h4>
+            <p className="mtb-30"> Link to the repo site:<a href="https://github.com/tbsdvl/GedditDone">Project 2 Repo</a> </p>
+    </div>
+    <div className="password">
+            <h2 className="mtb-10"> Password Generator</h2>
+
+
+            <p className="mtb-30"> This app was created using HTML, CSS and JavaScript. Most of the elements were created dynamically.
+                    This will generate a random password for the user with set criteria. </p>
+            <h4> <a className="mtb-30" href="https://myrlaf25.github.io/passwordgenerator/">Website Link</a></h4>
+            <p className="mtb-30"> Link to the repo site:<a href="https://github.com/myrlaf25/passwordgenerator">Password Generator Repo</a></p>
+    </div>
+        </div>
+        
+    </>
+
 );
 
 export default MyWork;

@@ -1,47 +1,50 @@
 import React from "react";
 import meinpink from "../assets/meinpink.jpg";
-import unsplashPhotoHome from "../assets/unsplashPhotoHome.jpg";
+import "../../index.css"
 
 const styles = {
-    homeStyle: {
-        background: "grey",
-        margin: " 0 auto",
-        Width: "100%",
-        padding: "0 10px"
-    },
+    
     headerStyle:{
         fontSize: 100,
         padding: "25px",
-        marginLeft: "15px"
+        color: "white",
+        textAlign: "center",
+       
     },
     imageStyle: {
-        height: "275px",
-        float: "left",
+        height: "300px",
+        // float: "left",
         borderRadius: "90px",
-        marginTop: "15px",
+        marginTop: "50px",
         marginLeft: "5%",
         boxShadow: "10px 9px 2px 2px rgba(15, 15, 15, 0.73)"
 
     },
-    imageHomeStyle:{
-        backgroundSize: "cover;",
-        width: "100%"
+    pStyle: {
+        color: "white",
+        marginTop: "200px",
+        textAlign: "center",
+        fontSize: "50px"
     }
+    
 }
 const Home = () => (
-    <><img style={styles.imageHomeStyle} src={unsplashPhotoHome} alt="name"/>
-  
-  <div style={styles.homeStyle} className="header">
-      <div className="container" >
+    <>
+  <div className="headerHome align-center justify-sb">
+      <div className="containerHome">
         <div className="masthead">
+        <div>
           <img style={styles.imageStyle} src={meinpink} alt="name"/>
         </div>
-        <h1 style={styles.headerStyle} >Myrla Flores</h1>
-        <p>A new way to look at things</p>
-        <a className="btn" href="#aboutMe"> About Me</a>
-      </div>
-    </div>
-   
+        </div>
+        <h1 style={styles.headerStyle}>Myrla Flores</h1>
+        <p style={styles.pStyle} >A new way to look at things</p>
+        <div>
+        </div>
+        </div>
+        </div>
+    
+  
     </>
 );
 
