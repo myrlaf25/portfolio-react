@@ -208,24 +208,41 @@ a {
     html, body, .containerWork, .aboutMePic {
         flex-direction: column;
     }
-    .weather, button, .project2, .blog {
+    .weather, .project2, .blog {
         display: flex;
         flex-direction: column;
         width:fit-content;
-        font-size: large;
+        font-size:x-large;
     }
-    .project1, button, .password, .budget {
+    .project1, .password, .budget {
         display: flex;
         flex-direction: column;
         width: fit-content;
-        font-size: large;
+        font-size:x-large;
+    }
+    button {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    
     }
     .aboutMePic, .containerSkills  {
         display: flex;
         flex-direction: column;
     }
-    .list, .contactList {
+    .list {
         font-size:x-large;
     }
-    
+    .contactList  {
+        display: flex;
+        flex-direction: column;
+        font-size: x-large;
+        margin-top: 80%;
+
+    }
+    .contactPic {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50%;
+    }
 }

@@ -16,7 +16,7 @@ const ContactMe = () => (
     <div className='containerContact'>
     <h3 className="bold-700 mtb-10 textCenter"style={{marginTop: '50px', fontSize: '100px', color: '#ebfaf6'}}>Contact Me</h3>
     
-    <img style={styles.imageStyle} src={Me} alt="me"/>
+    <img className="ContactPic" style={styles.imageStyle} src={Me} alt="me"/>
     </div>
     <div className='container'>
     <div>

@@ -6,7 +6,7 @@ const styles = {
   headerStyle: {
     fontSize: 70,
     padding: "25px",
-    color: "#10a6cc",
+    color: "#64dcfa",
     textAlign: "center",
   },
   imageStyle: {
@@ -27,7 +27,7 @@ const Home = () => (
             <img style={styles.imageStyle} src={meinpink} alt="name" />
           </div>
         </div>
-        <h1 className='textCenter'>Hello, I'm</h1>
+        <h1 className='textCenter primaryColor'>Hello, I'm</h1>
         <h2 style={styles.headerStyle}> Myrla Flores</h2>
         <h3 className="textCenter primaryColor">I am a Full-Stack Developer.</h3>
         <div></div>
