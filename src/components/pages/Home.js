@@ -4,13 +4,13 @@ import "../../index.css";
 
 const styles = {
   headerStyle: {
-    fontSize: 100,
+    fontSize: 70,
     padding: "25px",
     color: "white",
     textAlign: "center",
   },
   imageStyle: {
-    height: "300px",
+    height: "400px",
     borderRadius: "90px",
     marginTop: "50px",
     marginLeft: "5%",
@@ -18,7 +18,7 @@ const styles = {
   },
   pStyle: {
     color: "white",
-    marginTop: "140px",
+    marginTop: "90px",
     textAlign: "center",
     fontSize: "50px",
   },
@@ -32,8 +32,9 @@ const Home = () => (
             <img style={styles.imageStyle} src={meinpink} alt="name" />
           </div>
         </div>
-        <h1 style={styles.headerStyle}>Myrla Flores</h1>
-        <h3 className="textCenter primaryColor">Full-Stack Developer</h3>
+        <h1 className='textCenter textColor'>Hello, I'm</h1>
+        <h2 style={styles.headerStyle}> Myrla Flores</h2>
+        <h3 className="textCenter primaryColor">I am a Full-Stack Developer.</h3>
         <p style={styles.pStyle}>A new way to look at things</p>
         <div></div>
       </div>

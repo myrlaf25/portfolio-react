@@ -1,4 +1,14 @@
 import React from "react";
+import Me from "../assets/meAndSkids.jpg"
+const styles ={
+    imageStyle: {
+    height: "400px",
+    borderRadius: "90px",
+    marginTop: "100px",
+    marginLeft: "750px",
+    boxShadow: "8px 6px 2px 2px rgba(15, 15, 15, 0.73)",
+    }
+}
 
 const AboutMe = () => (
   <div className="headerAbout">  
@@ -25,6 +35,7 @@ const AboutMe = () => (
   </div>
   </div>
   </div>
+  <img style={styles.imageStyle} src={Me} alt="me"/>
   </div>
   </div> 
 );
