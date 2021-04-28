@@ -11,8 +11,11 @@ const styles ={
 }
 
 const AboutMe = () => (
-  <div className="headerAbout">  
+    <>
+  <div className="headerAbout">
+  </div>  
   <div className="container" >
+  <div>
   <div className="flexRow justify-sb align-center">
     <div>
     <h1 className="textColor mtb-10">About Me</h1>
@@ -32,12 +35,13 @@ const AboutMe = () => (
     rewarding. I have always enjoyed creating things and computers. This
     is the reason why I decided that Web Development was for me.
   </p>
-  </div>
-  </div>
-  </div>
   <img style={styles.imageStyle} src={Me} alt="me"/>
   </div>
+  </div>
+  </div>
+  </div>
   </div> 
+  </>
 );
 
 export default AboutMe;
