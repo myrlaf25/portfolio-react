@@ -4,6 +4,9 @@ import Weather from "../assets/weatherLogo.png";
 import Project1 from "../assets/project1Logo.png";
 import Project2 from "../assets/project2Logo.png";
 import Password from "../assets/passwordLogo.png";
+import Blog from "../assets/blogLogo.png";
+import Budget from "../assets/budgetLogo.png";
+
 
 const MyWork = () => (
   <>
@@ -169,6 +172,34 @@ const MyWork = () => (
           </a>
         </button>
       </div>
+      <div className="blog">
+      <h2 className="bold-700 mtb-30">Blue Tech Blog</h2>
+      <p> Technologies: HTML, CSS, JavaScript, API, Express, Handlebars, MySQL and Sequelize.</p>
+      <p>This is a CMS-style blog site similar to Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.</p>
+      <button className="secondaryColor mtb-30" style={{borderRadius: "45px", margin: "10px",
+          boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", overflow: "hidden",}}>
+        <a href="https://bluetechblog.herokuapp.com/">
+          <img src={Blog} alt="blog" /></a></button>
+      <button
+        className="mtb-130"
+        style={{borderRadius: "15px", boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)"}}>
+        <a className="mtb-10" href="https://github.com/myrlaf25/BlueTechBlog">
+          Blog Repo</a></button>
+    </div>   
+    <div className="budget">
+    <h2 className="bold-700 mtb-30">Budget Tracker</h2>
+    <p> Technologies: HTML, CSS, JavaScript, API, Express, Monngoose, MongoDB, IndexedDB.</p>
+    <p>The user will have access to track their money, allowing them to access that information anytime, either online or offline.</p>
+    <button className="secondaryColor mtb-30" style={{borderRadius: "45px", margin: "10px",
+        boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", overflow: "hidden",}}>
+      <a href="https://mybudgettracker-mf.herokuapp.com/">
+        <img src={Budget} alt="budget" /></a></button>
+    <button
+      className="mtb-130"
+      style={{borderRadius: "15px", boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",}}>
+      <a className="mtb-10" href="https://github.com/myrlaf25/mybudgettracker">
+        Budget Repo</a></button>
+  </div>
     </div>
   </>
 );
