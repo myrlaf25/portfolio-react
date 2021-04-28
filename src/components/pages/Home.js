@@ -6,8 +6,8 @@ const styles = {
   headerStyle: {
     fontSize: 70,
     padding: "25px",
-    color: "#64dcfa",
     textAlign: "center",
+    fontWeight: "bold",
   },
   imageStyle: {
     height: "350px",
