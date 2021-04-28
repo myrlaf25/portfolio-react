@@ -12,7 +12,7 @@ body {
 .headerHome {
   background: url("https://images.unsplash.com/photo-1614375879721-b6319a681586?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
   background-size: cover;
-  height: 900px;
+  height: 800px;
 }
 .headerAbout {
   background: url(https://images.unsplash.com/photo-1519446183880-73cdeae87cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80)

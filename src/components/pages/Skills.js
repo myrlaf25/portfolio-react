@@ -10,7 +10,7 @@ const Skills = () => (
    
     <div className='container skills-list'>
     <div>
-    <h3 >Some of the </h3>
+    <h3 className="textCenter textColor">I have experience in the following:</h3>
     <ul className='textCenter' style={{listStyle:'none'}}>
         <li> HTML</li>
         <li>CSS</li>
