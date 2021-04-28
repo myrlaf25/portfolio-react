@@ -8,8 +8,11 @@ import Password from "../assets/passwordLogo.png";
 const MyWork = () => (
   <>
     <div className="jumbotronWork">
-      <h1 className="textCenter bold-700 mtb-130" style={{fontSize: "100px"}}>My Work</h1>
-      <h3 className="textCenter bold-700 mtb-130" style={{color: "white"}}>You may find my work at:</h3>
+      <h1 className="textCenter bold-700 mtb-130" style={{fontSize: "100px",}}>My Work</h1>
+      </div>
+      
+      <div className="containerWork">
+      <h3 className="textCenter bold-700 mtb-130">You may find my work at:</h3>
       <a className="btn" id="github" href="https://github.com/myrlaf25">
         <img
           className="mtb-130" 
@@ -19,9 +22,6 @@ const MyWork = () => (
           height="100"
         />
       </a>
-    </div>
-
-    <div className="containerWork">
       <div className="weather">
         <h2 className="bold-700 mtb-30">Weather Dashboard</h2>
         <p> Technologies: HTML, CSS, JavaScript and an API.</p>

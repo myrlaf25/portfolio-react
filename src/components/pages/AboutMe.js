@@ -2,10 +2,10 @@ import React from "react";
 import Me from "../assets/meAndSkids.jpg"
 const styles ={
     imageStyle: {
-    height: "400px",
+    height: "350px",
     borderRadius: "90px",
-    marginTop: "100px",
-    marginLeft: "750px",
+    marginTop: "200px",
+    marginLeft: "800px",
     boxShadow: "8px 6px 2px 2px rgba(15, 15, 15, 0.73)",
     }
 }
@@ -13,6 +13,7 @@ const styles ={
 const AboutMe = () => (
     <>
   <div className="headerAbout">
+  <img style={styles.imageStyle} src={Me} alt="me"/>
   </div>  
   <div className="container" >
   <div>
@@ -35,7 +36,6 @@ const AboutMe = () => (
     rewarding. I have always enjoyed creating things and computers. This
     is the reason why I decided that Web Development was for me.
   </p>
-  <img style={styles.imageStyle} src={Me} alt="me"/>
   </div>
   </div>
   </div>
