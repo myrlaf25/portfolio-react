@@ -5,7 +5,7 @@ import Resume from "../assets/resumeLogo.png"
 const Skills = () => (
  <>
     <div className='containerSkills'>
-    <h3 className="bold-700 mtb-10 textCenter"style={{marginTop: '200px', fontSize: '100px', color: '#0695b9'}}>Web Development Skills</h3>
+    <h3 className="bold-700 mtb-10 textCenter"style={{marginTop: '220px', fontSize: '100px', color: '#0695b9'}}>Web Development Skills</h3>
     </div>
     <div className='container skills-list'>
     <div>
