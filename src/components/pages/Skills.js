@@ -5,12 +5,12 @@ import Resume from "../assets/resumeLogo.png"
 const Skills = () => (
  <>
     <div className='containerSkills'>
-    <h3 className="bold-700 mtb-10 textCenter"style={{marginTop: '220px', fontSize: '100px', color: '#0695b9'}}>Web Development Skills</h3>
+    <h3 className="bold-700 mtb-10 textCenter"style={{marginTop: '40px', fontSize: '100px', color: '#0695b9'}}>Web Development Skills</h3>
     </div>
     <div className='container skills-list'>
     <div>
     <h3 className="textCenter textColor">Partial list of tools I have used:</h3>
-    <ul className='textCenter' style={{listStyle:'none'}}>
+    <ul className='list textCenter' style={{listStyle:'none'}}>
     <li>HTML</li>
     <li>CSS</li>
     <li>Javascript</li>

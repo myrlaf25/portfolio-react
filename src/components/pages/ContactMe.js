@@ -6,8 +6,7 @@ const styles ={
     imageStyle: {
     height: "400px",
     borderRadius: "90px",
-    marginTop: "100px",
-    marginLeft: "850px",
+    margin: "40px",
     boxShadow: "8px 6px 2px 2px rgba(15, 15, 15, 0.73)",
     }
 }
@@ -22,7 +21,7 @@ const ContactMe = () => (
     <div className='container'>
     <div>
    
-    <ul className='textCenter' style={{listStyle:'none'}}>
+    <ul className='contactList textCenter' style={{listStyle:'none'}}>
         <li>Myrla Flores</li>
         <li>Phone: (520)245-9119</li>
         <li>Send me an email: <a href="mailto:myrlaf25@gmail.com">  myrlaf25@gmail.com.</a></li>
@@ -30,12 +29,10 @@ const ContactMe = () => (
           borderRadius: "45px",
           boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
           overflow: "hidden",
-        }}><a  href="https://www.linkedin.com/in/myrla-flores-756068200/">
+        }}><a className="linkedIn" href="https://www.linkedin.com/in/myrla-flores-756068200/">
                 <img
                   src={LinkedIn}
                   alt="github placeholder"
-                  width="200"
-                  height="100"
                 />
               </a></button>
     </ul>

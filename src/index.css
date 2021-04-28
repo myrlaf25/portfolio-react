@@ -153,30 +153,79 @@ a {
   color: #2d6675;
 }
 .weather {
-  margin-left: 100px;
-  margin-right: 500px;
+    width:50%;
+    position: static;
+    display: inline-block;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
 }
 .project1 {
-  margin-left: 500px;
-  margin-right: 100px;
+    width:50%;
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
 }
 .project2 {
-    margin-left: 100px;
-    margin-right: 500px;
+    width:50%;
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
 }
 .password {
-    margin-left: 500px;
-    margin-right: 100px;
+    width:50%;
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
 }
 .blog {
-    margin-left: 100px;
-    margin-right: 550px;
+    width:50%;
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
 }
 .budget {
-    margin-left: 500px;
-    margin-right: 100px;
+    width:50%;
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
 }
 #github{
     display: flex;
     justify-content: center;
+}
+@media screen and (max-width: 600px) {
+    html, body, .containerWork, .aboutMePic {
+        flex-direction: column;
+    }
+    .weather, button, .project2, .blog {
+        display: flex;
+        flex-direction: column;
+        width:fit-content;
+        font-size: large;
+    }
+    .project1, button, .password, .budget {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        font-size: large;
+    }
+    .aboutMePic, .containerSkills  {
+        display: flex;
+        flex-direction: column;
+    }
+    .list, .contactList {
+        font-size:x-large;
+    }
+    
 }
