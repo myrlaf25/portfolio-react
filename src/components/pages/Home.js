@@ -33,6 +33,7 @@ const Home = () => (
           </div>
         </div>
         <h1 style={styles.headerStyle}>Myrla Flores</h1>
+        <h3 className="textCenter primaryColor">Full-Stack Developer</h3>
         <p style={styles.pStyle}>A new way to look at things</p>
         <div></div>
       </div>

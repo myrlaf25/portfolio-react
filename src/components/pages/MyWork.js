@@ -8,11 +8,11 @@ import Password from "../assets/passwordLogo.png";
 const MyWork = () => (
   <>
     <div className="jumbotronWork">
-      <h1 className="textColor mtb-130">My Work</h1>
-      <p className="primaryColor font-20 mtb-130 ">You may find my work at:</p>
+      <h1 className="textCenter bold-700 mtb-130" style={{fontSize: "100px"}}>My Work</h1>
+      <h3 className="textCenter bold-700 mtb-130" style={{color: "white"}}>You may find my work at:</h3>
       <a className="btn" id="github" href="https://github.com/myrlaf25">
         <img
-          className="mtb-130"
+          className="mtb-130" 
           src={GithubLogo}
           alt="github placeholder"
           width="200"

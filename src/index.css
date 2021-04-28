@@ -53,6 +53,9 @@ body {
 .textColor {
   color: #10a6cc;
 }
+.textCenter{
+    text-align: center;
+}
 .font-10 {
   font-size: 10px;
 }
@@ -125,6 +128,9 @@ body {
 .align-center {
   align-items: center;
 }
+.alignCenter {
+    align-content: center;
+}
 .container {
   /* width: 900px; */
   margin: 0 auto;
@@ -149,4 +155,8 @@ a {
 .password {
     margin-left: 500px;
     margin-right: 100px;
+}
+#github{
+    display: flex;
+    justify-content: center;
 }
