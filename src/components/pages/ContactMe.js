@@ -21,7 +21,7 @@ const ContactMe = () => (
     </div>
     <div className='container'>
     <div>
-    <h3 className="textCenter textColor">Contact Information:</h3>
+   
     <ul className='textCenter' style={{listStyle:'none'}}>
         <li>Myrla Flores</li>
         <li>Phone: (520)245-9119</li>
