@@ -219,9 +219,10 @@ a {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
   html,
   body,
+  .jumbotronWork,
   .containerWork,
   .aboutMePic {
     flex-direction: column;
@@ -276,12 +277,12 @@ a {
     flex-direction: column;
   }
   .containerMe {
-    background-color: white;
-    flex-direction: column;
+    background-color: rgb(194, 191, 191);
+    /* flex-direction: row; */
     color: rgb(3, 3, 82);
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 780px) {
   html,
   body,
   .containerWork,
@@ -332,7 +333,7 @@ a {
   }
   .containerMe {
     background-color: rgb(236, 234, 234);
-    flex-direction: column;
+    /* flex-direction: column; */
     color: rgb(3, 3, 82);
   }
 }
