@@ -5,11 +5,11 @@ function Skills() {
   return (
     <div>
     <div className='containerSkills'>
-    <h3 className="web bold-700 textCenter">Web Development Skills</h3>
+    <h3 className="web bold-700 textCenter">Coding Skills</h3>
     </div>
     <div className='container skills-list'>
     <div>
-    <h3 className="textCenter textColor">Some of the modules I have used:</h3>
+    <h3 className="textCenter textColor">Experience working with the following modules:</h3>
     <ul className='list textCenter' style={{listStyle:'none'}}>
     <li>HTML</li>
     <li>CSS</li>
@@ -19,6 +19,9 @@ function Skills() {
     <li>Node.JS</li>
     <li>Sequelize</li>
     <li>Express</li>
+    <li>MongoDB</li>
+    <li>React</li>
+    <li>Plus more...</li>
     <button style={{
         borderRadius: "45px",
         margin: "5px",
