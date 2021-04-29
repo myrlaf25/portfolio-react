@@ -263,11 +263,11 @@ a {
     flex-direction: column;
   }
   .contactList {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     font-size: x-large;
-    margin-top: 80%;
-    float: left;
+    margin-top: 90%;
+    /* float: left; */
     width: fit-content;
   }
   #thanks {

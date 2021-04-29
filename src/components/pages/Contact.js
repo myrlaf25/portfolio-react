@@ -16,8 +16,8 @@ function Contact() {
         <div>
             <div className="containerContact">
                 <h3
-                    className="bold-700 mtb-10 textCenter"
-                    style={{ marginTop: "50px", fontSize: "100px", color: "#ebfaf6" }}
+                    className="bold-700 textCenter"
+                    style={{ marginTop: "50px", fontSize: "90px", color: "#ebfaf6" }}
                 >
                     Contact Me
         </h3>
