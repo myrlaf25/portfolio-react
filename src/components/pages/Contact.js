@@ -51,7 +51,8 @@ function Contact() {
                                 href="https://www.linkedin.com/in/myrla-flores-756068200/"
                             >
                                 <img 
-                                src={LinkedIn} alt="linkedin placeholder"
+                                src={LinkedIn} 
+                                alt="linkedin placeholder"
                                 width="150"
                                 height="90"
 
@@ -62,7 +63,7 @@ function Contact() {
                             <button 
                             style={{ 
                                 margin: "10px", borderRadius: "15px", 
-                                background: "#7dd6ec",  
+                                background: "#7dd6ec", overflow: "hidden" 
                             }}>
                                 <a
                                     className="btn"
@@ -75,7 +76,7 @@ function Contact() {
                             <div>
                                 <button 
                                 style={{ 
-                                    margin: "10px", borderRadius: "15px", background: "#7dd6ec" }}>
+                                    margin: "10px", borderRadius: "15px", background: "#7dd6ec", overflow: "hidden" }}>
                                     <a
                                         className="btn"
                                         id="github"

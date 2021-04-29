@@ -16,8 +16,8 @@ function MyWork() {
     </div>
     
     <div className="containerWork">
+    <div className="mtb-30">
     <h3 className="bold-700">You may find my work at:</h3>
-    <div>
     <button style={{
         margin: "10px",
         borderRadius: "20px",
@@ -32,11 +32,12 @@ function MyWork() {
         height="90"
       />
     </a></button>
+    <h3 className="bold-700">Below are some of my projects.</h3>
     </div>
     <div className="weather">
       <h2 className="bold-700 mtb-10">Weather Dashboard</h2>
-      <p> Modules: HTML, CSS, JavaScript and an API.</p>
-      <p>
+      <p className="bold-400 textColor"> Modules: HTML, CSS, JavaScript and an API.</p>
+      <p className="bold-700">
         This app will generate the current weather for the chosen city and a
         5-day forecast.
       </p>
@@ -76,8 +77,8 @@ function MyWork() {
         Group Project Contributors: Kate Biernat, Breon Sparrow, Kyle Simone
         and myself.
       </h6>
-      <p>Modules: HTML, CSS, Javascript, and 3 different APIs.</p>
-      <p>
+      <p className="bold-400 textColor">Modules: HTML, CSS, Javascript, and 3 different APIs.</p>
+      <p className="bold-700">
         The app generates a random picture of a puppy, a random joke, the
         current weather, and a 5 day forecast.
       </p>
@@ -118,11 +119,11 @@ function MyWork() {
       <h6>
         Group Project Contributors: Triston Burns, Hanna Ferris and myself.
       </h6>
-      <p>
+      <p className="bold-400 textColor">
         Modules: HTML, CSS, Javascript, API, MYSQL, Sequelize, Node.js,
         Express,js, email-validator, Handlebars.
       </p>
-      <p>
+      <p className="bold-700">
         This is a job website. The user may post a job or hire someone who has
         posted a job.
       </p>
@@ -159,8 +160,8 @@ function MyWork() {
     <div className="password">
       <h2 className="bold-700 mtb-10"> Password Generator</h2>
 
-      <p> Modules: HTML, CSS and JavaScript.</p>
-      <p>
+      <p className="bold-400 textColor"> Modules: HTML, CSS and JavaScript.</p>
+      <p className="bold-700">
         This will generate a random password for the user with set criteria.
       </p>
       <button
@@ -197,8 +198,8 @@ function MyWork() {
     </div>
     <div className="blog">
     <h2 className="bold-700 mtb-10">Blue Tech Blog</h2>
-    <p> Modules: HTML, CSS, JavaScript, API, Express, Handlebars, MySQL and Sequelize.</p>
-    <p>This is a CMS-style blog site similar to Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.</p>
+    <p className="bold-400 textColor"> Modules: HTML, CSS, JavaScript, API, Express, Handlebars, MySQL and Sequelize.</p>
+    <p className="bold-700">This is a CMS-style blog site similar to Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.</p>
     <button className="btn" 
     style={{
         margin: "10px",
@@ -224,8 +225,8 @@ function MyWork() {
   </div>   
   <div className="budget">
   <h2 className="bold-700 mtb-10">Budget Tracker</h2>
-  <p> Modules: HTML, CSS, JavaScript, API, Express, Mongoose, MongoDB, IndexedDB.</p>
-  <p>The user will have access to track their money, allowing them to access that information anytime, either online or offline.</p>
+  <p className="bold-400 textColor"> Modules: HTML, CSS, JavaScript, API, Express, Mongoose, MongoDB, IndexedDB.</p>
+  <p className="bold-700">The user will have access to track their money, allowing them to access that information anytime, either online or offline.</p>
   <button 
   className="btn" 
   style={{ 
