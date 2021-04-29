@@ -29,7 +29,7 @@ function Contact() {
                     alt="me"
                 />
             </div>
-            <div className="container">
+            <div className="container" style={{marginTop:"20px"}}>
                 <div>
                     <ul className="contactList textCenter" style={{ listStyle: "none" }}>
                         <li className="bold-700 font-30">Myrla Flores</li>
@@ -40,30 +40,42 @@ function Contact() {
                         </li>
                         <button
                             style={{
-                                borderRadius: "45px",
+                                borderRadius: "25px",
                                 boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
                                 overflow: "hidden",
+                                
                             }}
                         >
                             <a
-                                className="linkedIn"
+                                className="linkedIn btn"
                                 href="https://www.linkedin.com/in/myrla-flores-756068200/"
                             >
-                                <img src={LinkedIn} alt="linkedin placeholder" />
+                                <img 
+                                src={LinkedIn} alt="linkedin placeholder"
+                                width="150"
+                                height="90"
+
+                                 />
                             </a>
                         </button>
                         <div>
-                            <button style={{ margin: "10px", borderRadius: "15px", background: "grey" }}>
+                            <button 
+                            style={{ 
+                                margin: "10px", borderRadius: "15px", 
+                                background: "#7dd6ec",  
+                            }}>
                                 <a
                                     className="btn"
                                     id="resume"
                                     href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:76cc7368-4254-4868-b88a-d287e07a7d7c"
                                 >
                                     Resume
-                </a>
+                                </a>
                             </button>
                             <div>
-                                <button style={{ margin: "10px", borderRadius: "15px", background: "grey" }}>
+                                <button 
+                                style={{ 
+                                    margin: "10px", borderRadius: "15px", background: "#7dd6ec" }}>
                                     <a
                                         className="btn"
                                         id="github"

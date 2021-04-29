@@ -7,7 +7,7 @@ function NavTabs() {
   return (
       <>
     <nav class="navbar navbar-dark bg-dark">
-  
+    <h1 className="primaryColor">Myrla Flores</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
