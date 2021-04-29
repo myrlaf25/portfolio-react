@@ -304,8 +304,7 @@ a {
     display: flex;
     flex-direction: column;
   }
-  .aboutMePic,
-  .containerSkills {
+  .aboutMePic {
     display: flex;
     flex-direction: column;
     float: left;
@@ -315,12 +314,9 @@ a {
     flex-direction: column;
   }
   .contactList {
-    display: flex;
-    flex-direction: column;
     font-size: x-large;
-    margin-top: 80%;
-    float: left;
-    width: min-content;
+    margin-top: 90%;
+    width: fit-content;
   }
   #thanks {
     float: left;
