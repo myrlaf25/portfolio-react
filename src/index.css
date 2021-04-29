@@ -242,12 +242,10 @@ a {
   .budget {
     display: flex;
     flex-direction: column;
-    width: min-content;
+    width: fit-content;
     font-size: x-large;
   }
   button {
-    display: flex;
-    flex-direction: column;
     width: fit-content;
   }
   .headerStyle {
@@ -278,7 +276,6 @@ a {
   }
   .containerMe {
     background-color: rgb(194, 191, 191);
-    /* flex-direction: row; */
     color: rgb(3, 3, 82);
   }
 }
@@ -301,8 +298,6 @@ a {
     width: fit-content;
   }
   button {
-    display: flex;
-    flex-direction: column;
     width: fit-content;
   }
   .headerStyle {
@@ -333,7 +328,6 @@ a {
   }
   .containerMe {
     background-color: rgb(236, 234, 234);
-    /* flex-direction: column; */
     color: rgb(3, 3, 82);
   }
 }
