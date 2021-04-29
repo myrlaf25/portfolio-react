@@ -69,6 +69,16 @@ body {
   color: rgb(247, 247, 110);
   -webkit-text-stroke: 2px black;
 }
+.cardsContainer {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cardsContainer2 {
+    display: flex;
+    justify-content: space-around;
+   
+}
 .primaryColor {
   color: #dffcf4;
 }
@@ -167,54 +177,6 @@ a {
   text-decoration: none;
   color: #2d6675;
 }
-.weather {
-  width: 50%;
-  position: static;
-  display: inline-block;
-  flex-direction: row;
-  margin: 0;
-  padding: 10px;
-}
-.project1 {
-  width: 50%;
-  position: relative;
-  display: inline-block;
-  flex-direction: row;
-  margin: 0;
-  padding: 10px;
-}
-.project2 {
-  width: 50%;
-  position: relative;
-  display: inline-block;
-  flex-direction: row;
-  margin: 0;
-  padding: 10px;
-}
-.password {
-  width: 50%;
-  position: relative;
-  display: inline-block;
-  flex-direction: row;
-  margin: 0;
-  padding: 10px;
-}
-.blog {
-  width: 50%;
-  position: relative;
-  display: inline-block;
-  flex-direction: row;
-  margin: 0;
-  padding: 10px;
-}
-.budget {
-  width: 50%;
-  position: relative;
-  display: inline-block;
-  flex-direction: row;
-  margin: 0;
-  padding: 10px;
-}
 #github, #weather {
   display: flex;
   justify-content: center;
@@ -231,29 +193,10 @@ a {
   .jumbotronWork,
   .containerWork,
   .containerSkills
-  .aboutMePic {
+  .aboutMePic, 
+  .cardsContainer, 
+  .cardsContainer2 {
     flex-direction: column;
-  }
-  .weather,
-  .project2,
-  .blog {
-    display: flex;
-    flex-direction: column;
-    width: min-content;
-    font-size: x-large;
-    float: left;
-    margin: 15px;
-  }
-  .project1,
-  .password,
-  .budget {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    font-size: x-large;
-  }
-  button {
-    width: fit-content;
   }
   .headerStyle {
     display: flex;
@@ -287,19 +230,10 @@ a {
   html,
   body,
   .containerWork,
-  .aboutMePic {
+  .aboutMePic,
+  .cardsContainer, 
+  .cardsContainer2 {
     flex-direction: column;
-  }
-  .weather,
-  .project2,
-  .blog,
-  .project1,
-  .password,
-  .budget {
-    display: flex;
-    flex-direction: column;
-    font-size: large;
-    width: fit-content;
   }
   button {
     width: fit-content;
@@ -330,4 +264,16 @@ a {
     background-color: rgb(236, 234, 234);
     color: rgb(3, 3, 82);
   }
+}
+@media screen and (max-width: 992px) {
+    html,
+    body,
+    .jumbotronWork,
+    .containerWork,
+    .containerSkills
+    .aboutMePic, 
+    .cardsContainer, 
+    .cardsContainer2 {
+      flex-direction: column;
+    }
 }
