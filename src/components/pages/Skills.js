@@ -1,15 +1,15 @@
 import React from "react";
 import Resume from "../assets/resumeLogo.png"
 
-
-const Skills = () => (
- <>
+function Skills() {
+  return (
+    <div>
     <div className='containerSkills'>
-    <h3 className="bold-700 mtb-10 textCenter"style={{marginTop: '40px', fontSize: '100px', color: 'rgb(247, 247, 110)'}}>Web Development Skills</h3>
+    <h3 className="web bold-700 mtb-10 textCenter">Web Development Skills</h3>
     </div>
     <div className='container skills-list'>
     <div>
-    <h3 className="textCenter textColor">Partial list of tools I have used:</h3>
+    <h3 className="textCenter textColor">Some of the modules I have used:</h3>
     <ul className='list textCenter' style={{listStyle:'none'}}>
     <li>HTML</li>
     <li>CSS</li>
@@ -29,8 +29,8 @@ const Skills = () => (
 </div>
 
 </div>
-
-</>
-);
+    </div>
+  );
+}
 
 export default Skills;
