@@ -5,7 +5,7 @@ function Skills() {
   return (
     <div>
     <div className='containerSkills'>
-    <h3 className="web bold-700 mtb-10 textCenter">Web Development Skills</h3>
+    <h3 className="web bold-700 textCenter">Web Development Skills</h3>
     </div>
     <div className='container skills-list'>
     <div>
