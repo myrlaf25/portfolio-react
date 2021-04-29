@@ -215,10 +215,16 @@ a {
   margin: 0;
   padding: 10px;
 }
-#github {
+#github, #weather {
   display: flex;
   justify-content: center;
 }
+.btn:hover, .nav ul li:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s; 
+    
+  }
 @media screen and (max-width: 580px) {
   html,
   body,
@@ -263,11 +269,8 @@ a {
     flex-direction: column;
   }
   .contactList {
-    /* display: flex;
-    flex-direction: column; */
     font-size: x-large;
     margin-top: 90%;
-    /* float: left; */
     width: fit-content;
   }
   #thanks {

@@ -16,16 +16,17 @@ function MyWork() {
     </div>
     
     <div className="containerWork">
-    <h3 className="textCenter bold-700">You may find my work at:</h3>
-    <a className="btn" id="github" href="https://github.com/myrlaf25">
+    <h3 className="textCenter bold-700">You may find my work at:</h3><div>
+    <button style={{ borderRadius: "45px", margin: "5px",
+    boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", overflow: "hidden"}}><a className="btn" id="github" href="https://github.com/myrlaf25">
       <img
-        className="mtb-130" 
+        className="mtb-30" 
         src={GithubLogo}
         alt="github placeholder"
-        width="200"
-        height="100"
+        width="150"
+        height="90"
       />
-    </a>
+    </a></button></div>
     <div className="weather">
       <h2 className="bold-700 mtb-10">Weather Dashboard</h2>
       <p> Modules: HTML, CSS, JavaScript and an API.</p>
@@ -34,20 +35,26 @@ function MyWork() {
         5-day forecast.
       </p>
       <button
-        className="mtb-10"
+        className="btn mtb-10"
         style={{
-          borderRadius: "45px",
-          margin: "10px",
-          boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
-          overflow: "hidden",
-        }}
+            borderRadius: "45px",
+            margin: "10px",
+            boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
+            overflow: "hidden",
+        }} 
       >
-        <a href="https://myrlaf25.github.io/myweatherapp/.">
-          <img src={Weather} alt="weather" />
+        <a className="btn" id="weather" href="https://myrlaf25.github.io/myweatherapp/.">
+          <img 
+          src={Weather} 
+          className="mtb-30" 
+          alt="weather"
+          width="150"
+          height="90"
+           />
         </a>
       </button>
       <button
-        className="mtb-30"
+        className="btn mtb-30"
         style={{
           borderRadius: "15px",
           boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
@@ -71,7 +78,7 @@ function MyWork() {
         current weather, and a 5 day forecast.
       </p>
       <button
-        className="mtb-10"
+        className="btn mtb-10"
         style={{
           borderRadius: "45px",
           margin: "10px",
@@ -80,11 +87,16 @@ function MyWork() {
         }}
       >
         <a href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/">
-          <img src={Project1} alt="project1" />
+          <img 
+          src={Project1} 
+          alt="project1"
+          className="mtb-30" 
+          width="150"
+          height="90" />
         </a>
       </button>
       <button
-        className="mtb-10"
+        className="btn mtb-10"
         style={{
           borderRadius: "15px",
           boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
