@@ -12,11 +12,11 @@ function MyWork() {
   return (
     <div>
     <div className="jumbotronWork">
-    <h1 className="textCenter bold-700 mtb-130" style={{fontSize: "100px",}}>My Work</h1>
+    <h1 className="textCenter bold-700 mtb-130" style={{fontSize: "90px",}}>My Work</h1>
     </div>
     
     <div className="containerWork">
-    <h3 className="textCenter bold-700 mtb-130">You may find my work at:</h3>
+    <h3 className="textCenter bold-700">You may find my work at:</h3>
     <a className="btn" id="github" href="https://github.com/myrlaf25">
       <img
         className="mtb-130" 
@@ -27,14 +27,14 @@ function MyWork() {
       />
     </a>
     <div className="weather">
-      <h2 className="bold-700 mtb-30">Weather Dashboard</h2>
-      <p> Technologies: HTML, CSS, JavaScript and an API.</p>
+      <h2 className="bold-700 mtb-10">Weather Dashboard</h2>
+      <p> Modules: HTML, CSS, JavaScript and an API.</p>
       <p>
         This app will generate the current weather for the chosen city and a
         5-day forecast.
       </p>
       <button
-        className="secondaryColor mtb-30"
+        className="mtb-10"
         style={{
           borderRadius: "45px",
           margin: "10px",
@@ -47,7 +47,7 @@ function MyWork() {
         </a>
       </button>
       <button
-        className="mtb-130"
+        className="mtb-30"
         style={{
           borderRadius: "15px",
           boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
@@ -60,18 +60,18 @@ function MyWork() {
     </div>
 
     <div className="project1">
-      <h2 className="bold-700 mtb-30">Group Project 1</h2>
+      <h2 className="bold-700 mtb-10">Group Project 1</h2>
       <h6>
         Group Project Contributors: Kate Biernat, Breon Sparrow, Kyle Simone
         and myself.
       </h6>
-      <p>Technologies: HTML, CSS, Javascript, and 3 different APIs.</p>
+      <p>Modules: HTML, CSS, Javascript, and 3 different APIs.</p>
       <p>
         The app generates a random picture of a puppy, a random joke, the
         current weather, and a 5 day forecast.
       </p>
       <button
-        className="secondaryColor mtb-30"
+        className="mtb-10"
         style={{
           borderRadius: "45px",
           margin: "10px",
@@ -84,14 +84,14 @@ function MyWork() {
         </a>
       </button>
       <button
-        className="mtb-130"
+        className="mtb-10"
         style={{
           borderRadius: "15px",
           boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
         }}
       >
         <a
-          className="mtb-10"
+          className="mtb-30"
           href="https://github.com/kebiernat5/Dad-Joke-Pup-Forecast"
         >
           Pup-Joke Repo
@@ -99,13 +99,13 @@ function MyWork() {
       </button>
     </div>
     <div className="project2">
-      <h2 className="bold-700 mtb-30"> 2nd Group Project</h2>
+      <h2 className="bold-700 mtb-10"> 2nd Group Project</h2>
 
       <h6>
         Group Project Contributors: Triston Burns, Hanna Ferris and myself.
       </h6>
       <p>
-        Technologies: HTML, CSS, Javascript, API, MYSQL, Sequelize, Node.js,
+        Modules: HTML, CSS, Javascript, API, MYSQL, Sequelize, Node.js,
         Express,js, email-validator, Handlebars.
       </p>
       <p>
@@ -114,7 +114,7 @@ function MyWork() {
       </p>
 
       <button
-        className="secondaryColor mtb-30"
+        className="mtb-10"
         style={{
           borderRadius: "45px",
           margin: "10px",
@@ -127,7 +127,7 @@ function MyWork() {
         </a>
       </button>
       <button
-        className="mtb-130"
+        className="mtb-30"
         style={{
           borderRadius: "15px",
           boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
@@ -139,14 +139,14 @@ function MyWork() {
       </button>
     </div>
     <div className="password">
-      <h2 className="bold-700 mtb-30"> Password Generator</h2>
+      <h2 className="bold-700 mtb-10"> Password Generator</h2>
 
-      <p> Technologies: HTML, CSS and JavaScript.</p>
+      <p> Modules: HTML, CSS and JavaScript.</p>
       <p>
         This will generate a random password for the user with set criteria.
       </p>
       <button
-        className="secondaryColor mtb-30"
+        className="mtb-10"
         style={{
           borderRadius: "45px",
           margin: "10px",
@@ -159,7 +159,7 @@ function MyWork() {
         </a>
       </button>
       <button
-        className="mtb-130"
+        className="mtb-30"
         style={{
           borderRadius: "15px",
           boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
@@ -174,29 +174,29 @@ function MyWork() {
       </button>
     </div>
     <div className="blog">
-    <h2 className="bold-700 mtb-30">Blue Tech Blog</h2>
-    <p> Technologies: HTML, CSS, JavaScript, API, Express, Handlebars, MySQL and Sequelize.</p>
+    <h2 className="bold-700 mtb-10">Blue Tech Blog</h2>
+    <p> Modules: HTML, CSS, JavaScript, API, Express, Handlebars, MySQL and Sequelize.</p>
     <p>This is a CMS-style blog site similar to Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.</p>
-    <button className="secondaryColor mtb-30" style={{borderRadius: "45px", margin: "10px",
+    <button className="mtb-10" style={{borderRadius: "45px", margin: "10px",
         boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", overflow: "hidden",}}>
       <a href="https://bluetechblog.herokuapp.com/">
         <img src={Blog} alt="blog" /></a></button>
     <button
-      className="mtb-130"
+      className="mtb-30"
       style={{borderRadius: "15px", boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)"}}>
       <a className="mtb-10" href="https://github.com/myrlaf25/BlueTechBlog">
         Blog Repo</a></button>
   </div>   
   <div className="budget">
-  <h2 className="bold-700 mtb-30">Budget Tracker</h2>
-  <p> Technologies: HTML, CSS, JavaScript, API, Express, Monngoose, MongoDB, IndexedDB.</p>
+  <h2 className="bold-700 mtb-10">Budget Tracker</h2>
+  <p> Modules: HTML, CSS, JavaScript, API, Express, Mongoose, MongoDB, IndexedDB.</p>
   <p>The user will have access to track their money, allowing them to access that information anytime, either online or offline.</p>
-  <button className="secondaryColor mtb-30" style={{borderRadius: "45px", margin: "10px",
+  <button className="mtb-10" style={{borderRadius: "45px", margin: "10px",
       boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", overflow: "hidden",}}>
     <a href="https://mybudgettracker-mf.herokuapp.com/">
       <img src={Budget} alt="budget" /></a></button>
   <button
-    className="mtb-130"
+    className="mtb-30"
     style={{borderRadius: "15px", boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",}}>
     <a className="mtb-10" href="https://github.com/myrlaf25/mybudgettracker">
       Budget Repo</a></button>
