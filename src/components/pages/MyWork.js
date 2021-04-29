@@ -12,7 +12,7 @@ function MyWork() {
   return (
     <div>
     <div className="jumbotronWork">
-    <h1 className="textCenter bold-700 mtb-130" style={{fontSize: "90px",}}>My Work</h1>
+    <h1 className="textCenter bold-700" style={{fontSize: "90px",}}>My Work</h1>
     </div>
     
     <div className="containerWork">
@@ -60,7 +60,7 @@ function MyWork() {
     </div>
 
     <div className="project1">
-      <h2 className="bold-700 mtb-10">Group Project 1</h2>
+      <h2 className="bold-700 mtb-10">1st Group Project</h2>
       <h6>
         Group Project Contributors: Kate Biernat, Breon Sparrow, Kyle Simone
         and myself.
