@@ -2,9 +2,9 @@ import React from "react";
 import Me from "../assets/meAndSkids.jpg";
 const styles = {
   imageStyle: {
-    height: "350px",
-    borderRadius: "90px",
-    margin: "40px",
+    height: "375px",
+    borderRadius: "40px",
+    margin: "30px",
     boxShadow: "8px 6px 2px 2px rgba(15, 15, 15, 0.73)",
   },
 };
@@ -13,18 +13,17 @@ function AboutMe() {
   return (
     <>
       <div className="headerAbout">
-        <h1
-          className="textColor textCenter bold-700"
-          style={{ fontSize: "80px" }}
-        >
-          About Me
-        </h1>
-        <img
-          className="aboutMePic"
-          style={styles.imageStyle}
-          src={Me}
-          alt="me"
-        />
+      <h1
+        className="primaryColor textCenter font-60 bold-700"
+      >
+        About Me
+      </h1>
+      <img
+        className="aboutMePic"
+        style={styles.imageStyle}
+        src={Me}
+        alt="me"
+      />
       </div>
       <div className="containerMe">
         <div>
