@@ -12,7 +12,7 @@ body {
 .headerHome {
   background: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)center center;
   background-size:cover;
-  height: 750px;
+  height: 900px;
 
 }
 .headerAbout {
@@ -64,8 +64,8 @@ body {
 .inPink{
     width: 460px;
     border-radius: 80px;
-    margin-left: 95px;
-    position: relative;
+    margin: 45px;
+    /* position: relative; */
     box-shadow: 10px 9px 2px 2px rgba(15, 15, 15, 0.73);
 }
 .masthead {
@@ -229,7 +229,8 @@ a {
   .containerSkills
   .aboutMePic, 
   .cardsContainer, 
-  .cardsContainer2 {
+  .cardsContainer2,
+  .inPink {
     flex-direction: column;
   }
   .headerStyle {
