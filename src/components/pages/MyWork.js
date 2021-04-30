@@ -32,11 +32,11 @@ function MyWork() {
                                 height="100"
                             />
                         </a></button>
-                    <h3 className="bold-700 textCenter">Below are some of my projects.</h3>
+                    <h3 className="bold-700 textColor font-60 textCenter">Below are some of my projects.</h3>
                 </div>
                 <div className="cardsContainer">
-                    <div className="card" style={{ width: "18rem" }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px" }}>
+                    <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
+                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px" }}>
 
                             <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#87a7b3"}}>Weather Dashboard</h3>
 
@@ -76,8 +76,8 @@ function MyWork() {
                         </div>
                     </div>
 
-                    <div className="card" style={{ width: "18rem" }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px" }}>
+                    <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
+                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px"  }}>
 
                             <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#f5f7b2"}}>1st Group Project</h3>
 
@@ -121,8 +121,8 @@ function MyWork() {
                             </button>
                         </div>
                     </div>
-                    <div className="card" style={{ width: "18rem" }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px" }}>
+                    <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
+                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px"  }}>
 
                             <h3 className="card-title textColor bold-700 textCenter" style={{background: "black", color: "#f21170"}}>2nd Group Project</h3>
 
@@ -165,8 +165,8 @@ function MyWork() {
                     </div>
                     </div>
                     <div className="cardsContainer2">
-                    <div className="card" style={{ width: "18rem" }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px" }}>
+                    <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
+                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px"}}>
 
                             <h3 className="card-title bold-700 textCenter" style={{background: "black", color:"#ffc288"}}>Password Generator</h3>
 
@@ -208,8 +208,8 @@ function MyWork() {
                             </button>
                         </div>
                     </div>
-                    <div className="card" style={{ width: "18rem" }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px" }}>
+                    <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
+                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px"  }}>
 
                             <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#77acf1"}}>Blue Tech Blog</h3>
 
@@ -243,8 +243,8 @@ function MyWork() {
                                     Blog Repo</a></button>
                         </div>
                     </div>
-                    <div className="card" style={{ width: "18rem" }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px" }}>
+                    <div className="card" style={{ width: "18rem", borderRadius: "25px" }}>
+                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px" }}>
 
                             <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#f3bda1"}}>Budget Tracker</h3>
 
