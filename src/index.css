@@ -60,6 +60,7 @@ body {
   font-size: 90px;
   padding: 5px;
   text-align: center;
+  display: flex;
 }
 .inPink{
     width: 460px;
