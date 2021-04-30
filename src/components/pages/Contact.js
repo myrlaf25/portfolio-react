@@ -4,9 +4,9 @@ import Me from "../assets/me.png";
 
 const styles = {
     imageStyle: {
-        height: "400px",
+        height: "375px",
         borderRadius: "90px",
-        margin: "40px",
+        margin: "30px",
         boxShadow: "8px 6px 2px 2px rgba(15, 15, 15, 0.73)",
     },
 };
@@ -29,7 +29,7 @@ function Contact() {
                     alt="me"
                 />
             </div>
-            <div className="container" style={{marginTop:"20px"}}>
+            <div className="container" style={{marginTop:"10px"}}>
                 <div>
                     <ul className="contactList textCenter" style={{ listStyle: "none" }}>
                         <li className="bold-700 font-30">Myrla Flores</li>
