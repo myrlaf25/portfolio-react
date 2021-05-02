@@ -17,7 +17,7 @@ function MyWork() {
 
             <div className="containerWork">
                 <div className="mtb-30">
-                    <h3 className="bold-700">You may find my work at:</h3>
+                    <h4 className="bold-700">You may find my work at:</h4>
                     <button style={{
                         margin: "10px",
                         borderRadius: "20px",
@@ -32,7 +32,7 @@ function MyWork() {
                                 height="100"
                             />
                         </a></button>
-                    <h3 className="bold-700 textColor font-60 textCenter">Below are some of my projects.</h3>
+                    <h4 className="bold-700 textColor font-60 textCenter">Some of my projects...</h4>
                 </div>
                 <div className="cardsContainer">
                     <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
