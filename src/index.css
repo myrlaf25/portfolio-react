@@ -237,7 +237,9 @@ a {
   .cardsContainer, 
   .cardsContainer2, 
   .containerSkills, 
-  .containerContact {
+  .containerContact, 
+  .contactPic, 
+  .contactList {
     flex-direction: column;
   }
   .headerStyle {
