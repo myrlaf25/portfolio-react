@@ -250,6 +250,7 @@ a {
     display: flex;
     flex-direction: column;
     float: left;
+    font-size: 30px;
   }
   .list {
     font-size: x-large;
