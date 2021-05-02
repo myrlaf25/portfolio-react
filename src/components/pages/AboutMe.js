@@ -27,7 +27,7 @@ function AboutMe() {
       </div>
       <div className="containerMe">
         <div>
-        <h2 calssName="textColor textCenter mtb-30 ptb">Welcome to my portfolio.</h2>
+        <h2 calssName="textColor textCenter mtb-30 ptb">Welcome!</h2>
           <h4 className="bold-500 mtb-30">
             Hello, my name is Myrla Flores. I am new to the web development
             world. I am currently enrolled in the Full Stack Coding Bootcamp
