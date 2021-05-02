@@ -14,7 +14,7 @@ function AboutMe() {
     <>
       <div className="headerAbout">
       <h1
-        className="primaryColor textCenter font-60 bold-700"
+        className="whiteColor textCenter font-60 bold-700"
       >
         About Me
       </h1>
@@ -27,6 +27,7 @@ function AboutMe() {
       </div>
       <div className="containerMe">
         <div>
+        <h2 calssName="textColor textCenter mtb-30 ptb">Welcome to my portfolio.</h2>
           <h4 className="bold-500 mtb-30">
             Hello, my name is Myrla Flores. I am new to the web development
             world. I am currently enrolled in the Full Stack Coding Bootcamp
@@ -36,13 +37,13 @@ function AboutMe() {
           <h4 className="bold-500 mtb-30">
             I currently reside in Tucson, AZ. I have a Bachelor’s of Science in
             Psychology from The University of Arizona. Most of my work
-            experience in is Case Management.
+            experience has been in Case Management.
           </h4>
 
           <h4 className="bold-500 mtb-30">
-            This has been a very challenging experience yet it has been very
-            rewarding. I have always enjoyed creating things and computers. This
-            is the reason why I decided that Web Development was for me.
+            The Bootcamp has been a very challenging experience yet it has been very
+            rewarding. I have always enjoyed creating things and working with computers. This
+            is the reason why I decided Web Development is for me. I cannto wait to begin my journey in this field. 
           </h4>
         </div>
       </div>

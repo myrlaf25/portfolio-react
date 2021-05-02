@@ -13,9 +13,6 @@ function Skills() {
     <div ClassName="carousel">
     </div>
     
-    
-    
-    
     </div>
     <div className='container skills-list'>
     <div>
