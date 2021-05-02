@@ -21,13 +21,14 @@ function Contact() {
                 >
                     Contact Me
         </h3>
-
+                <div>
                 <img
                     className="ContactPic"
                     style={styles.imageStyle}
                     src={Me}
                     alt="me"
                 />
+                </div>
             </div>
             <div className="container" style={{marginTop:"10px"}}>
                 <div>
