@@ -235,7 +235,9 @@ a {
   .containerWork,
   .aboutMePic, 
   .cardsContainer, 
-  .cardsContainer2 {
+  .cardsContainer2, 
+  .containerSkills, 
+  .containerContact {
     flex-direction: column;
   }
   .headerStyle {
