@@ -36,14 +36,14 @@ function AboutMe() {
 
           <h4 className="bold-500 mtb-30">
             I currently reside in Tucson, AZ. I have a Bachelor’s of Science in
-            Psychology from The University of Arizona. Most of my work
+            Psychology from the University of Arizona. Most of my work
             experience has been in Case Management.
           </h4>
 
           <h4 className="bold-500 mtb-30">
             The Bootcamp has been a very challenging experience yet it has been very
             rewarding. I have always enjoyed creating things and working with computers. This
-            is the reason why I decided Web Development is for me. I cannto wait to begin my journey in this field. 
+            is the reason why I decided Web Development is for me. I cannot wait to begin my journey in this field. 
           </h4>
         </div>
       </div>
