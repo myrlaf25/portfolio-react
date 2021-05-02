@@ -32,7 +32,7 @@ function MyWork() {
                                 height="100"
                             />
                         </a></button>
-                    <h4 className="bold-700 textColor font-60 textCenter">Some of my projects...</h4>
+                    <h4 className="bold-700 textColor font-30 textCenter">Some of my projects...</h4>
                 </div>
                 <div className="cardsContainer">
                     <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
