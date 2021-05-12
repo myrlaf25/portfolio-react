@@ -53,7 +53,7 @@ function MyWork() {
                                     overflow: "hidden",
                                 }}
                             >
-                                <a href="https://myrlaf25.github.io/myweatherapp/.">
+                                <a href="https://myrlaf25.github.io/myweatherapp/.">Visit:
                                     <img
                                         src={Weather}
                                         alt="weather"
@@ -70,7 +70,7 @@ function MyWork() {
                                 }}
                             >
                                 <a className="mtb-10" href="https://github.com/myrlaf25/myweatherapp">
-                                    Weather Repo
+                                    Code
         </a>
                             </button>
                         </div>
@@ -96,7 +96,7 @@ function MyWork() {
                                     overflow: "hidden",
                                 }}
                             >
-                                <a href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/">
+                                <a href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/">Visit:
                                     <img
                                         src={Project1}
                                         alt="project1"
@@ -116,7 +116,7 @@ function MyWork() {
                                     className="mtb-10"
                                     href="https://github.com/kebiernat5/Dad-Joke-Pup-Forecast"
                                 >
-                                    Pup-Joke Repo
+                                Code
 </a>
                             </button>
                         </div>
@@ -141,7 +141,7 @@ function MyWork() {
                                     overflow: "hidden",
                                 }}
                             >
-                                <a href="https://gedditdone.herokuapp.com/">
+                                <a href="https://gedditdone.herokuapp.com/">Visit:
                                     <img
                                         src={Project2}
                                         alt="project2"
@@ -158,7 +158,7 @@ function MyWork() {
                                 }}
                             >
                                 <a className="mtb-10" href="https://github.com/tbsdvl/GedditDone">
-                                    GedditDone Repo
+                                Code
         </a>
                             </button>
                         </div>
@@ -183,7 +183,7 @@ function MyWork() {
                                     overflow: "hidden",
                                 }}
                             >
-                                <a href="https://myrlaf25.github.io/passwordgenerator/">
+                                <a href="https://myrlaf25.github.io/passwordgenerator/">Visit:
                                     <img
                                         src={Password}
                                         alt="password"
@@ -203,7 +203,7 @@ function MyWork() {
                                     className="mtb-10"
                                     href="https://github.com/myrlaf25/passwordgenerator"
                                 >
-                                    Password Repo
+                                Code
     </a>
                             </button>
                         </div>
@@ -224,7 +224,7 @@ function MyWork() {
                                     boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
                                     overflow: "hidden",
                                 }}>
-                                <a href="https://bluetechblog.herokuapp.com/">
+                                <a href="https://bluetechblog.herokuapp.com/">Visit:
                                     <img
                                         src={Blog}
                                         alt="blog"
@@ -240,7 +240,7 @@ function MyWork() {
                                     boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)"
                                 }}>
                                 <a className="mtb-10" href="https://github.com/myrlaf25/BlueTechBlog">
-                                    Blog Repo</a></button>
+                                Code</a></button>
                         </div>
                     </div>
                     <div className="card" style={{ width: "18rem", borderRadius: "25px" }}>
@@ -259,7 +259,7 @@ function MyWork() {
                                     margin: "10px",
                                     boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", overflow: "hidden",
                                 }}>
-                                <a href="https://mybudgettracker-mf.herokuapp.com/">
+                                <a href="https://mybudgettracker-mf.herokuapp.com/">Visit:
                                     <img
                                         src={Budget}
                                         alt="budget"
@@ -276,7 +276,7 @@ function MyWork() {
                                 }}>
                                 <a
                                     className="mtb-10" href="https://github.com/myrlaf25/mybudgettracker">
-                                    Budget Repo</a></button>
+                                    Code</a></button>
                         </div>
                     </div>
                 </div>
