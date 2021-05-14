@@ -276,6 +276,9 @@ a {
     flex-direction: column;
     float: left;
 }
+#img {
+   width: 70%
+}
 }
 @media screen and (max-width: 780px) {
   html,

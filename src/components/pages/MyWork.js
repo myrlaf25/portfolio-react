@@ -18,7 +18,8 @@ function MyWork() {
             <div className="containerWork">
                 <div className="mtb-30">
                     <h4 className="bold-700">You may find my work at:</h4>
-                    <button style={{
+                    <button 
+                    style={{
                         margin: "10px",
                         borderRadius: "20px",
                         boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
@@ -46,7 +47,7 @@ function MyWork() {
 
 
                             <button
-                                className="btn"
+                            className="btn" id='img'
                                 style={{
                                     margin: "10px",
                                     boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
@@ -89,7 +90,7 @@ function MyWork() {
 
 
                             <button
-                                className="btn"
+                                className="btn" id='img'
                                 style={{
                                     margin: "10px",
                                     boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
@@ -134,7 +135,7 @@ function MyWork() {
 
 
                             <button
-                                className="btn"
+                            className="btn" id='img'
                                 style={{
                                     margin: "10px",
                                     boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
@@ -176,7 +177,7 @@ function MyWork() {
 
 
                             <button
-                                className="btn"
+                            className="btn" id='img'
                                 style={{
                                     margin: "10px",
                                     boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
@@ -218,7 +219,8 @@ function MyWork() {
                             <p className="card-text bold-700">This is a CMS-style blog site similar to Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.</p>
 
 
-                            <button className="btn"
+                            <button 
+                            className="btn" id='img'
                                 style={{
                                     margin: "10px",
                                     boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
@@ -254,7 +256,7 @@ function MyWork() {
 
 
                             <button
-                                className="btn"
+                            className="btn" id='img'
                                 style={{
                                     margin: "10px",
                                     boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", overflow: "hidden",
