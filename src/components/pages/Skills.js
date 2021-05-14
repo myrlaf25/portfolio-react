@@ -69,7 +69,7 @@ function Skills() {
         margin: "5px",
         boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
         overflow: "hidden", 
-    }}><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:622f124c-d5e5-4c8e-86a1-4780be71070c"><img src={Resume} alt="resume"/></a></button>
+    }}><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:4221a4e5-c1d2-4c4a-8617-48f89ca713d7"><img src={Resume} alt="resume"/></a></button>
     </ul>
     </div>
 

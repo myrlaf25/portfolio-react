@@ -28,8 +28,8 @@ function MyWork() {
                             <img
                                 src={GithubLogo}
                                 alt="github placeholder"
-                                width="180"
-                                height="100"
+                                width="130"
+                                height="80"
                             />
                         </a></button>
                     <h4 className="bold-700 textColor font-30 textCenter">Some of my projects...</h4>
@@ -57,8 +57,8 @@ function MyWork() {
                                     <img
                                         src={Weather}
                                         alt="weather"
-                                        width="200"
-                                        height="130"
+                                        width="150"
+                                        height="110"
                                     />
                                 </a>
                             </button>
@@ -66,7 +66,7 @@ function MyWork() {
                                 className="btn mtb-30"
                                 style={{
                                     borderRadius: "20px",
-                                    boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
+                                    boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
                                 }}
                             >
                                 <a className="mtb-10" href="https://github.com/myrlaf25/myweatherapp">
@@ -100,17 +100,17 @@ function MyWork() {
                                     <img
                                         src={Project1}
                                         alt="project1"
-                                        width="200"
-                                        height="130" 
+                                        width="150"
+                                        height="110" 
                                         />
                                 </a>
                             </button>
                             <button
-                                className="btn mtb-30"
-                                style={{
-                                    borderRadius: "20px",
-                                    boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
-                                }}
+                            className="btn mtb-30"
+                            style={{
+                                borderRadius: "20px",
+                                boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
+                            }}
                             >
                                 <a
                                     className="mtb-10"
@@ -145,17 +145,17 @@ function MyWork() {
                                     <img
                                         src={Project2}
                                         alt="project2"
-                                        width="200"
-                                        height="130"
+                                        width="150"
+                                        height="110"
                                     />
                                 </a>
                             </button>
                             <button
-                                className=" btn mtb-30"
-                                style={{
-                                    borderRadius: "20px",
-                                    boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
-                                }}
+                            className="btn mtb-30"
+                            style={{
+                                borderRadius: "20px",
+                                boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
+                            }}
                             >
                                 <a className="mtb-10" href="https://github.com/tbsdvl/GedditDone">
                                 Code
@@ -187,17 +187,17 @@ function MyWork() {
                                     <img
                                         src={Password}
                                         alt="password"
-                                        width="200"
-                                        height="130"
+                                        width="150"
+                                        height="110"
                                     />
                                 </a>
                             </button>
                             <button
-                                className="btn mtb-30"
-                                style={{
-                                    borderRadius: "20px",
-                                    boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
-                                }}
+                            className="btn mtb-30"
+                            style={{
+                                borderRadius: "20px",
+                                boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
+                            }}
                             >
                                 <a
                                     className="mtb-10"
@@ -228,17 +228,17 @@ function MyWork() {
                                     <img
                                         src={Blog}
                                         alt="blog"
-                                        width="200"
-                                        height="130"
+                                        width="150"
+                                        height="110"
                                     />
                                 </a>
                             </button>
                             <button
-                                className="btn mtb-30"
-                                style={{
-                                    borderRadius: "20px",
-                                    boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)"
-                                }}>
+                            className="btn mtb-30"
+                            style={{
+                                borderRadius: "20px",
+                                boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
+                            }}>
                                 <a className="mtb-10" href="https://github.com/myrlaf25/BlueTechBlog">
                                 Code</a></button>
                         </div>
@@ -263,17 +263,17 @@ function MyWork() {
                                     <img
                                         src={Budget}
                                         alt="budget"
-                                        width="200"
-                                        height="130"
+                                        width="150"
+                                        height="110"
                                     />
                                 </a>
                             </button>
                             <button
-                                className="btn mtb-30"
-                                style={{
-                                    borderRadius: "20px",
-                                    boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)",
-                                }}>
+                            className="btn mtb-30"
+                            style={{
+                                borderRadius: "20px",
+                                boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
+                            }}>
                                 <a
                                     className="mtb-10" href="https://github.com/myrlaf25/mybudgettracker">
                                     Code</a></button>
