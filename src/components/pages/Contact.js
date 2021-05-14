@@ -17,19 +17,20 @@ function Contact() {
             <div className="containerContact">
                 <h3
                     className="bold-700 textCenter"
-                    style={{ marginTop: "30px", fontSize: "80px", color: "#ebfaf6" }}
+                    style={{ marginTop: "30px", fontSize: "70px", color: "#ebfaf6" }}
                 >
                     Contact Me
         </h3>
-                <div>
+                
                 <img
                     className="ContactPic"
                     style={styles.imageStyle}
                     src={Me}
                     alt="me"
                 />
-                </div>
+               
             </div>
+           
             <div className="container" style={{marginTop:"10px"}}>
                 <div>
                     <ul className="contactList textCenter" style={{ listStyle: "none" }}>
@@ -39,6 +40,7 @@ function Contact() {
                             Send me an email:{" "}
                             <a href="mailto:myrlaf25@gmail.com"> myrlaf25@gmail.com.</a>
                         </li>
+                        
                         <button
                             style={{
                                 borderRadius: "25px",
@@ -59,7 +61,7 @@ function Contact() {
 
                                  />
                             </a>
-                        </button>
+                            </button>
                         <div>
                             <button 
                             style={{ 
@@ -88,7 +90,7 @@ function Contact() {
                                 </button>
                             </div>
                         </div>
-                    </ul>
+                        </ul>
                     <h3 id="thanks" className="textCenter">
                         Thank you for stopping by!
           </h3>

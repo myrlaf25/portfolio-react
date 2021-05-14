@@ -237,11 +237,10 @@ a {
   .cardsContainer, 
   .cardsContainer2,  
   .containerContact, 
-  .contactPic, 
   .contactList {
     flex-direction: column;
   }
-  .headerStyle {
+  .headerStyle, .contactPic {
     display: flex;
     flex-direction: column;
   }
@@ -265,7 +264,7 @@ a {
   }
   .containerMe {
     background-color: rgb(250, 219, 172);
-    color: rgb(151, 74, 10);
+    color: rgb(51, 49, 48);
   }
   .carousel {
     width: 280px;
