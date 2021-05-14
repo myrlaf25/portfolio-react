@@ -221,6 +221,16 @@ a {
     width: 100%;
    
 }
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(251, 252, 253);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
 @media screen and (max-width: 350px){
     .carousel {
         width: 200%;
@@ -257,6 +267,7 @@ a {
   .contactList {
     font-size: x-large;
     width: fit-content;
+    margin-top: 25px;
   }
   #thanks {
     float: left;
@@ -278,6 +289,12 @@ a {
 #img {
    width: 80%
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    float: left;
+   
+  }
 }
 @media screen and (max-width: 780px) {
   html,

@@ -1,5 +1,4 @@
 import React from "react";
-import LinkedIn from "../assets/linkedIn.png";
 import Me from "../assets/me.png";
 
 const styles = {
@@ -41,53 +40,11 @@ function Contact() {
                             <a href="mailto:myrlaf25@gmail.com"> myrlaf25@gmail.com.</a>
                         </li>
                         
-                        <button
-                            style={{
-                                borderRadius: "25px",
-                                boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
-                                overflow: "hidden",
-                                
-                            }}
-                        >
-                            <a
-                                className="linkedIn btn"
-                                href="https://www.linkedin.com/in/myrla-flores-756068200/"
-                            >
-                                <img 
-                                src={LinkedIn} 
-                                alt="linkedin placeholder"
-                                width="150"
-                                height="90"
-
-                                 />
-                            </a>
-                            </button>
+                        
                         <div>
-                            <button 
-                            style={{ 
-                                margin: "10px", borderRadius: "15px", 
-                                background: "#7dd6ec", overflow: "hidden" 
-                            }}>
-                                <a
-                                    className="btn"
-                                    id="resume"
-                                    href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:76cc7368-4254-4868-b88a-d287e07a7d7c"
-                                >
-                                    Resume
-                                </a>
-                            </button>
+                            
                             <div>
-                                <button 
-                                style={{ 
-                                    margin: "10px", borderRadius: "15px", background: "#7dd6ec", overflow: "hidden" }}>
-                                    <a
-                                        className="btn"
-                                        id="github"
-                                        href="https://github.com/myrlaf25"
-                                    >
-                                        Github
-                  </a>
-                                </button>
+                                
                             </div>
                         </div>
                         </ul>
