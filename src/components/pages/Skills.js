@@ -16,6 +16,19 @@ function Skills() {
     </div>
     <div className='container skills-list'>
     <div>
+    <h3 className="textCenter textColor font-60">Experience working with the following:</h3>
+    <ul className='list textCenter font-25' style={{listStyle:'none'}}>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Bootstrap</li>
+    <li>MySQL</li>
+    <li>Node.JS</li>
+    <li>Sequelize</li>
+    <li>Express</li>
+    <li>MongoDB</li>
+    <li>React</li>
+    <li>Plus more...</li>
     <Carousel>
   <Carousel.Item>
     <img
@@ -51,19 +64,6 @@ function Skills() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-    <h3 className="textCenter textColor">Experience working with the following modules:</h3>
-    <ul className='list textCenter' style={{listStyle:'none'}}>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>Bootstrap</li>
-    <li>MySQL</li>
-    <li>Node.JS</li>
-    <li>Sequelize</li>
-    <li>Express</li>
-    <li>MongoDB</li>
-    <li>React</li>
-    <li>Plus more...</li>
     <button style={{
         borderRadius: "45px",
         margin: "5px",
