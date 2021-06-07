@@ -36,22 +36,23 @@ function MyWork() {
                     <h4 className="bold-700 textColor font-30 textCenter">Some of my projects...</h4>
                 </div>
                 <div className="row cardsContainer">
-                    <div className="col-md-3 col-sm-4">
-                        <div className="card-body" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6">
+                        <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
                             <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#87a7b3"}}>Weather Dashboard</h3>
 
-                            <p className="card-text">Modules: HTML, CSS, JavaScript and an API.</p>
-                            <p className="card-text bold-700">This app will generate the current weather for the chosen city and a
+                            <p className="card-text textCenter">HTML, CSS, JavaScript and an API.</p>
+                            <p className="card-text bold-700 textCenter">This app will generate the current weather for the chosen city and a
     5-day forecast.</p>
 
-
+                                    <div className="project ptb row justify-content-center">
                                     <img
                                         src={Weather}
                                         alt="weather"
                                         width="150"
                                         height="110"
-                                    />
+                                        
+                                    /></div>
                            <div className="linkContainer">
                                 <a className="btn btn-primary" href="https://myrlaf25.github.io/myweatherapp/.">View Live
                                 </a>
@@ -65,20 +66,22 @@ function MyWork() {
                         </div>
                     </div>
 
-                    <div className="col-md-3 col-sm-4">
-                        <div className="card-body" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6">
+                        <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
                         <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#87a7b3"}}>1st Group Project</h3>
 
                             <p className="card-text">Contributors: Kate Biernat, Breon Sparrow, Kyle Simone and myself.</p>
-                            <p className="card-text">Modules: HTML, CSS, Javascript, and 3 different APIs.</p>
-                            <p className="card-text bold-700">The app generates a random picture of a puppy, a random joke, the current weather, and a 5 day forecast.</p>
+                            <p className="card-text textCenter">HTML, CSS, Javascript, and 3 different APIs.</p>
+                            <p className="card-text bold-700 textCenter">The app generates a random picture of a puppy, a random joke, the current weather, and a 5 day forecast.</p>
+                            <div className="project ptb row justify-content-center">
                                     <img
+                                       
                                         src={Project1}
                                         alt="project1"
                                         width="150"
                                         height="110" 
-                                        />
+                                        /></div>
 
                                 <div className="linkContainer">
                                 <a className="btn btn-primary" href="https://kebiernat5.github.io/Dad-Joke-Pup-Forecast/">View Live
@@ -94,23 +97,23 @@ function MyWork() {
                     </div>
                     </div>
 
-                    <div className="col-md-3 col-sm-4">
-                        <div className="card-body" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6">
+                        <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
-                        <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#87a7b3"}}>2nd Group Project</h3>
+                        <h3 className="card-title textCenter" style={{background: "black", color: "#87a7b3"}}>2nd Group Project</h3>
 
                             <p className="card-text">Contributors: Triston Burns, Hanna Ferris and myself.</p>
-                            <p className="card-text"> Modules: HTML, CSS, Javascript, API, MYSQL, Sequelize, Node.js,
+                            <p className="card-text textCenter"> HTML, CSS, Javascript, API, MYSQL, Sequelize, Node.js,
                         Express,js, email-validator, Handlebars.</p>
-                            <p className="card-text bold-700">This is a job website. The user may post a job or hire someone who has
+                            <p className="card-text bold-700 textCenter">This is a job website. The user may post a job or hire someone who has
     posted a job.</p>
-
+    <div className="project ptb row justify-content-center">
                                     <img
                                         src={Project2}
                                         alt="project2"
                                         width="150"
                                         height="110"
-                                    />
+                                    /></div>
 
 <div className="linkContainer">
                                 <a className="btn btn-primary" href="https://gedditdone.herokuapp.com/">View Live
@@ -125,6 +128,8 @@ function MyWork() {
                     </div>
                     </div>
                     </div>
+
+                    
                     <div className="cardsContainer2">
                     <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
                         <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px"}}>
