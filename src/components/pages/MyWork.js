@@ -33,13 +33,13 @@ function MyWork() {
                                 height="80"
                             />
                         </a></button>
-                    <h4 className="bold-700 textColor font-30 textCenter">Some of my projects...</h4>
+                    <h4 className="bold-700 font-30 textCenter">Some of my projects...</h4>
                 </div>
                 <div className="row cardsContainer">
                     <div className="col-md-3 col-sm-6">
                         <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
-                            <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#87a7b3"}}>Weather Dashboard</h3>
+                            <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>Weather Dashboard</h3>
 
                             <p className="card-text textCenter">HTML, CSS, JavaScript and an API.</p>
                             <p className="card-text bold-700 textCenter">This app will generate the current weather for the chosen city and a
@@ -69,7 +69,7 @@ function MyWork() {
                     <div className="col-md-3 col-sm-6">
                         <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
-                        <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#87a7b3"}}>1st Group Project</h3>
+                        <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>1st Group Project</h3>
 
                             <p className="card-text">Contributors: Kate Biernat, Breon Sparrow, Kyle Simone and myself.</p>
                             <p className="card-text textCenter">HTML, CSS, Javascript, and 3 different APIs.</p>
@@ -100,7 +100,7 @@ function MyWork() {
                     <div className="col-md-3 col-sm-6">
                         <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
-                        <h3 className="card-title textCenter" style={{background: "black", color: "#87a7b3"}}>2nd Group Project</h3>
+                        <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>2nd Group Project</h3>
 
                             <p className="card-text">Contributors: Triston Burns, Hanna Ferris and myself.</p>
                             <p className="card-text textCenter"> HTML, CSS, Javascript, API, MYSQL, Sequelize, Node.js,
@@ -129,124 +129,95 @@ function MyWork() {
                     </div>
                     </div>
 
-                    
-                    <div className="cardsContainer2">
-                    <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px"}}>
 
-                            <h3 className="card-title bold-700 textCenter" style={{background: "black", color:"#ffc288"}}>Password Generator</h3>
+                    <div className="row cardsContainer2">
+                    <div className="col-md-3 col-sm-6">
+                        <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
+                            <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>Password Generator</h3>
 
-                            <p className="card-text">Modules: HTML, CSS and JavaScript.</p>
-                            <p className="card-text bold-700">This will generate a random password for the user with set criteria.</p>
+                            <p className="card-text textCenter">HTML, CSS and JavaScript.</p>
+                            <p className="card-text bold-700 textCenter">This will generate a random password for the user with set criteria.</p>
 
-
-                            <button
-                            className="btn" id='img'
-                                style={{
-                                    margin: "10px",
-                                    boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
-                                    overflow: "hidden",
-                                }}
-                            >
-                                <a href="https://myrlaf25.github.io/passwordgenerator/">Visit:
+                                    <div className="project ptb row justify-content-center">
                                     <img
                                         src={Password}
                                         alt="password"
                                         width="150"
                                         height="110"
-                                    />
+                                        
+                                    /></div>
+                           <div className="linkContainer">
+                                <a className="btn btn-primary" href="https://myrlaf25.github.io/passwordgenerator/">View Live
                                 </a>
-                            </button>
-                            <button
-                            className="btn mtb-30"
-                            style={{
-                                borderRadius: "20px",
-                                boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
-                            }}
-                            >
-                                <a
-                                    className="mtb-10"
-                                    href="https://github.com/myrlaf25/passwordgenerator"
-                                >
-                                Code
-    </a>
-                            </button>
+                           
+                            
+                                <a className="btn btn-primary" href="https://github.com/myrlaf25/passwordgenerator">
+                                   View Code
+        </a>
+                            
+                        </div>
                         </div>
                     </div>
-                    <div className="card" style={{ width: "18rem", borderRadius: "25px"  }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px"  }}>
 
-                            <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#77acf1"}}>Blue Tech Blog</h3>
+                    <div className="col-md-3 col-sm-6">
+                        <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
+                            <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>Blue Tech Blog</h3>
 
-                            <p className="card-text">Modules: HTML, CSS, JavaScript, API, Express, Handlebars, MySQL and Sequelize.</p>
-                            <p className="card-text bold-700">This is a CMS-style blog site similar to Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.</p>
+                            <p className="card-text textCenter">HTML, CSS, JavaScript, API, Express, Handlebars, MySQL and Sequelize.</p>
+                            <p className="card-text bold-700 textCenter">This is a CMS-style blog site similar to Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.</p>
 
-
-                            <button 
-                            className="btn" id='img'
-                                style={{
-                                    margin: "10px",
-                                    boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)",
-                                    overflow: "hidden",
-                                }}>
-                                <a href="https://bluetechblog.herokuapp.com/">Visit:
+                                    <div className="project ptb row justify-content-center">
                                     <img
                                         src={Blog}
                                         alt="blog"
                                         width="150"
                                         height="110"
-                                    />
+                                        
+                                    /></div>
+                           <div className="linkContainer">
+                                <a className="btn btn-primary" href="https://bluetechblog.herokuapp.com/">View Live
                                 </a>
-                            </button>
-                            <button
-                            className="btn mtb-30"
-                            style={{
-                                borderRadius: "20px",
-                                boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
-                            }}>
-                                <a className="mtb-10" href="https://github.com/myrlaf25/BlueTechBlog">
-                                Code</a></button>
+                           
+                            
+                                <a className="btn btn-primary" href="https://github.com/myrlaf25/BlueTechBlog">
+                                   View Code
+        </a>
+                            
+                        </div>
                         </div>
                     </div>
-                    <div className="card" style={{ width: "18rem", borderRadius: "25px" }}>
-                        <div className="card-body" style={{ background: "white", border: "solid black 10px", borderRadius: "25px" }}>
 
-                            <h3 className="card-title bold-700 textCenter" style={{background: "black", color: "#f3bda1"}}>Budget Tracker</h3>
+                    <div className="col-md-3 col-sm-6">
+                        <div className="card-body font-20" style={{ background: "white", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
 
+                            <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>Budget Tracker</h3>
 
-                            <p className="card-text">Modules: HTML, CSS, JavaScript, API, Express, Mongoose, MongoDB, IndexedDB.</p>
-                            <p className="card-text bold-700">The user will have access to track their money, allowing them to access that information anytime, either online or offline.</p>
+                            <p className="card-text textCenter">HTML, CSS, JavaScript, API, Express, Mongoose, MongoDB, IndexedDB.</p>
+                            <p className="card-text bold-700 textCenter">The user will have access to track their money, allowing them to access that information anytime, either online or offline.</p>
 
-
-                            <button
-                            className="btn" id='img'
-                                style={{
-                                    margin: "10px",
-                                    boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", overflow: "hidden",
-                                }}>
-                                <a href="https://mybudgettracker-mf.herokuapp.com/">Visit:
+                                    <div className="project ptb row justify-content-center">
                                     <img
-                                        src={Budget}
-                                        alt="budget"
+                                        src={Blog}
+                                        alt="blog"
                                         width="150"
                                         height="110"
-                                    />
+                                        
+                                    /></div>
+                           <div className="linkContainer">
+                                <a className="btn btn-primary" href="https://mybudgettracker-mf.herokuapp.com/">View Live
                                 </a>
-                            </button>
-                            <button
-                            className="btn mtb-30"
-                            style={{
-                                borderRadius: "20px",
-                                boxShadow: "5px 3px 1px 1px rgba(15, 15, 15, 0.73)", marginTop: "25px", alignContent: "center"
-                            }}>
-                                <a
-                                    className="mtb-10" href="https://github.com/myrlaf25/mybudgettracker">
-                                    Code</a></button>
+                           
+                            
+                                <a className="btn btn-primary" href="https://github.com/myrlaf25/mybudgettracker">
+                                   View Code
+        </a>
+                            
+                        </div>
                         </div>
                     </div>
-                </div>
+                    </div>
             </div>
         </div>
 

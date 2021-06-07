@@ -80,25 +80,27 @@ body {
   margin-top: 85px;
   font-size: 90px;
   color: #080808;
-  -webkit-text-stroke: 2px #0695b9;
+  -webkit-text-stroke: 1px #0695b9;
 }
 .work{
   justify-content: center;
 }
 .cardsContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: static;
     flex-wrap: wrap;
-    justify-content: center;
+    margin:20px;
+    padding: 5px;
     
 }
 .cardsContainer2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    /* position: static;
-    flex-wrap: wrap; */
+  display: flex;
+  justify-content: space-evenly;
+  position: static;
+  flex-wrap: wrap;
+  margin:20px;
+  padding: 5px;
    
 }
 .whiteColor {
