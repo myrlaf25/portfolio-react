@@ -14,7 +14,7 @@ function NavTabs() {
           Home
         </Link>
       </li>
-      <li className="nav-item primaryColor">
+      <li className="nav-item whiteColor">
         <Link
           to="/aboutme"
           className={location.pathname === "/aboutme" ? "nav-link active" : "nav-link"}
