@@ -22,6 +22,18 @@ body {
   background-size: cover;
   height: 520px;
 }
+.containerMe{
+ text-align: center;
+ font-size: 1.8rem;
+ font-weight: 300;
+
+}
+.aboutMe{
+  text-align: left;
+}
+.me{
+  padding: 15px;
+}
 .jumbotronWork {
   background: url(https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
     center center;
@@ -230,6 +242,10 @@ a {
     left: 0;
     width: 100%;
     text-align: center;
+  }
+  .linkContainer{
+    display: flex;
+    justify-content: space-around;
   }
 @media screen and (max-width: 350px){
     .carousel {

@@ -13,7 +13,8 @@ function Footer() {
     <div className="footer">
     <p>Created by Myrla © 2021</p>
    
-    <div><a href="https://www.linkedin.com/in/myrla-flores-756068200/"><FontAwesomeIcon icon={faLinkedin } size="3x"/></a>
+    <div className="linkContainer">
+  <a href="https://www.linkedin.com/in/myrla-flores-756068200/"><FontAwesomeIcon icon={faLinkedin } size="3x"/></a>
 
    <a href="https://github.com/myrlaf25"><FontAwesomeIcon icon={ faGithub } size="3x" /></a>
 
