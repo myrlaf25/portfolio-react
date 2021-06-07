@@ -282,10 +282,6 @@ a {
     width: fit-content;
     margin-top: 45px;
   }
-  #thanks {
-    float: left;
-    flex-direction: column;
-  }
   .containerMe {
     background-color: rgb(250, 219, 172);
     color: rgb(51, 49, 48);
@@ -341,9 +337,6 @@ a {
     color: #272423;
    
     
-  }
-  #thanks {
-    flex-direction: column;
   }
   .containerMe {
     background-color: rgb(236, 234, 234);
