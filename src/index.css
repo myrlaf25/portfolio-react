@@ -266,6 +266,7 @@ a {
   h3 {
     flex-direction: column;
     margin: 10px;
+    width: fit-content;
   }
   .headerStyle, .contactPic {
     display: flex;
@@ -315,7 +316,8 @@ a {
   .containerWork,
   .aboutMePic,
   .cardsContainer, 
-  .cardsContainer2 {
+  .cardsContainer2,
+  .containerContact {
     flex-direction: column;
   }
   button {
@@ -354,6 +356,7 @@ a {
     display: flex;
     flex-direction: column;
     float: left;
+    margin-bottom: 15px;
 }
   
 }
