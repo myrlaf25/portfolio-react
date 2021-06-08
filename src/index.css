@@ -90,7 +90,7 @@ body {
     justify-content: space-evenly;
     position: static;
     flex-wrap: wrap;
-    margin:20px;
+    margin-bottom:20px;
     padding: 5px;
     
 }
@@ -99,7 +99,7 @@ body {
   justify-content: space-evenly;
   position: static;
   flex-wrap: wrap;
-  margin:20px;
+  margin-bottom:20px;
   padding: 5px;
    
 }
