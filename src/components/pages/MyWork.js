@@ -199,7 +199,7 @@ function MyWork() {
 
                                     <div className="project ptb row justify-content-center">
                                     <img
-                                        src={Blog}
+                                        src={Budget}
                                         alt="blog"
                                         width="150"
                                         height="110"
