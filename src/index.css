@@ -217,11 +217,16 @@ a {
     transition: background .5s; 
     
   }
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
   .carousel {
-    width: 75%;
-    float: center;
+    width: 60%;
+    position: relative;
     
 }
+
 .directory, .fitness, .blog{
     width: 100%;
    
@@ -256,7 +261,9 @@ a {
   .cardsContainer, 
   .cardsContainer2,  
   .containerContact, 
-  .contactList {
+  .contactList,
+  .web,
+  h3 {
     flex-direction: column;
     margin: 10px;
   }
@@ -271,7 +278,7 @@ a {
     font-size: 30px;
   }
   .list {
-    font-size: x-large;
+    font-size: 70px;
     flex-direction: column;
   }
   .contactList {

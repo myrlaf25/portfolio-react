@@ -15,8 +15,8 @@ function Skills() {
     </div>
     <div className='container skills-list'>
     <div>
-    <h3 className="textCenter textColor font-60">Experience working with the following:</h3>
-    <ul className='list textCenter font-25' style={{listStyle:'none'}}>
+    <h3 className="row textCenter textColor font-60">Experience working with the following:</h3>
+    <ul className='list bold-700 textCenter font-25 col' style={{listStyle:'none'}}>
     <li>HTML</li>
     <li>CSS</li>
     <li>Javascript</li>
@@ -28,10 +28,9 @@ function Skills() {
     <li>MongoDB</li>
     <li>React</li>
     <li>Plus more...</li>
-    
     </ul>
-    </div>
-    <Carousel>
+  
+    <Carousel className="carousel col">
   <Carousel.Item>
     <img
       className="d-block w-20 directory"
@@ -66,7 +65,11 @@ function Skills() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-
+    
+    </div>
+   
+   
+  
 </div>
     </div>
   );
