@@ -235,7 +235,8 @@ a {
 .footer{
     margin-top: 1rem;
     padding: 1rem;
-    background-color: rgb(251, 252, 253);
+    background-color: rgb(47, 51, 51);
+    color: white;
     position: relative;
     bottom: 0;
     left: 0;
@@ -253,7 +254,7 @@ a {
     }
     
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 500px) {
   html,
   body,
   .jumbotronWork,
@@ -263,11 +264,11 @@ a {
   .cardsContainer2,  
   .containerContact, 
   .containerHome,
-  .contactList,
+  .headerHome,
   .web,
   h3 {
     flex-direction: column;
-    margin: 10px;
+    margin: 5px;
     width: fit-content;
   }
   .headerStyle, .contactPic {
@@ -283,11 +284,6 @@ a {
   .list {
     font-size: 70px;
     flex-direction: column;
-  }
-  .contactList {
-    font-size: x-large;
-    width: fit-content;
-    margin-top: 45px;
   }
   .containerMe {
     background-color: rgb(250, 219, 172);
@@ -315,12 +311,14 @@ a {
 @media screen and (max-width: 780px) {
   html,
   body,
+  .jumbotronWork,
   .containerWork,
   .aboutMePic,
   .cardsContainer, 
   .cardsContainer2,
   .containerContact {
     flex-direction: column;
+    width: fit-content;
   }
   button {
     width: fit-content;
@@ -338,14 +336,7 @@ a {
     font-size: x-large;
     flex-direction: column;
   }
-  .contactList {
-    font-size: x-large;
-    margin-top: 220px;
-    width: fit-content;
-    color: #272423;
-   
-    
-  }
+  
   .containerMe {
     background-color: rgb(236, 234, 234);
     color: rgb(3, 3, 82);
