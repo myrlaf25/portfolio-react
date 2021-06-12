@@ -89,19 +89,20 @@ body {
     display: flex;
     justify-content: space-evenly;
     position: static;
-    flex-wrap: wrap;
-    margin-bottom:20px;
+    /* flex-wrap: wrap; */
+    margin:20px;
     padding: 5px;
+    height: max-content;
     
 }
 .cardsContainer2 {
   display: flex;
   justify-content: space-evenly;
   position: static;
-  flex-wrap: wrap;
-  margin-bottom:20px;
+  /* flex-wrap: wrap; */
+  margin:20px;
   padding: 5px;
-   
+  height: max-content; 
 }
 .whiteColor {
     color: white;
