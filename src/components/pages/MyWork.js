@@ -36,7 +36,7 @@ function MyWork() {
                     <h4 className="bold-700 font-30 textCenter">Some of my projects...</h4>
                 </div>
                 <div className="row cardsContainer">
-                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", margin: "10px", padding: "2px" }}>
                         <div className="card-body font-20">
 
                             <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>Weather Dashboard</h3>
@@ -66,7 +66,7 @@ function MyWork() {
                         </div>
                     </div>
 
-                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", margin: "10px", padding: "2px"  }}>
                         <div className="card-body font-20">
 
                         <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>1st Group Project</h3>
@@ -97,7 +97,7 @@ function MyWork() {
                     </div>
                     </div>
 
-                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", margin: "10px", padding: "2px"  }}>
                         <div className="card-body font-20">
 
                         <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>2nd Group Project</h3>
@@ -131,7 +131,7 @@ function MyWork() {
 
 
                     <div className="row cardsContainer2">
-                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", margin: "10px", padding: "2px"  }}>
                         <div className="card-body font-20">
 
                             <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>Password Generator</h3>
@@ -160,7 +160,7 @@ function MyWork() {
                         </div>
                     </div>
 
-                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", margin: "10px", padding: "2px"  }}>
                         <div className="card-body font-20">
 
                             <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>Blue Tech Blog</h3>
@@ -189,7 +189,7 @@ function MyWork() {
                         </div>
                     </div>
 
-                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)" }}>
+                    <div className="col-md-3 col-sm-6" style={{ background: "white", border: "solid 1px", borderRadius: "25px", boxShadow: "8px 5px 2px 2px rgba(15, 15, 15, 0.73)", margin: "10px", padding: "2px"  }}>
                         <div className="card-body font-20">
 
                             <h3 className="card-title bold-700 textCenter" style={{ color: "#3399ff"}}>Budget Tracker</h3>

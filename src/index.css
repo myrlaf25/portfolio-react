@@ -89,8 +89,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     position: static;
-    /* flex-wrap: wrap; */
-    margin:20px;
     padding: 5px;
     height: max-content;
     
@@ -99,8 +97,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   position: static;
-  /* flex-wrap: wrap; */
-  margin:20px;
+ 
   padding: 5px;
   height: max-content; 
 }
