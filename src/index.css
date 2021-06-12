@@ -5,34 +5,32 @@ body {
 }
 
 body {
-  font-family: "Merriweather","Lato", sans-serif;
+  font-family: "Merriweather", "Lato", sans-serif;
   font-weight: 100;
   /* font-weight: bold; */
 }
 
 .headerHome {
-  background: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)center center;
-  background-size:cover;
-  height: 600px;
- 
-
+  background: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+    center center;
+  background-size: cover;
+  height: 680px;
 }
 .headerAbout {
   background: url(https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80)
     center center;
   background-size: cover;
-  height: 520px;
+  height: 420px;
 }
-.containerMe{
- text-align: center;
- font-size: 1.8rem;
- font-weight: 300;
-
+.containerMe {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
-.aboutMe{
+.aboutMe {
   text-align: left;
 }
-.me{
+.me {
   padding: 15px;
 }
 .jumbotronWork {
@@ -48,7 +46,6 @@ body {
   background-repeat: no-repeat;
   padding: 10px;
   height: 400px;
- 
 }
 .containerContact {
   background: url(https://images.unsplash.com/photo-1550330545-87c6109a81f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80)
@@ -69,12 +66,12 @@ body {
   text-align: center;
   /* display: flex; */
 }
-.inPink{
-    width: 380px;
-    border-radius: 80px;
-    margin-left: 30px;
-    position: relative;
-    box-shadow: 10px 9px 2px 2px rgba(15, 15, 15, 0.73);
+.inPink {
+  width: 380px;
+  border-radius: 80px;
+  margin-left: 30px;
+  position: relative;
+  box-shadow: 10px 9px 2px 2px rgba(15, 15, 15, 0.73);
 }
 .web {
   margin-top: 85px;
@@ -82,28 +79,27 @@ body {
   color: #080808;
   -webkit-text-stroke: 1px #0695b9;
 }
-.work{
+.work {
   justify-content: center;
 }
 .cardsContainer {
-    display: flex;
-    justify-content: space-evenly;
-    position: static;
-    padding: 5px;
-    height: max-content;
-    
+  display: flex;
+  justify-content: space-evenly;
+  position: static;
+  padding: 5px;
+  height: max-content;
 }
 .cardsContainer2 {
   display: flex;
   justify-content: space-evenly;
   position: static;
- 
+
   padding: 5px;
-  height: max-content; 
+  height: max-content;
 }
 .whiteColor {
-    color: white;
-  }
+  color: white;
+}
 .primaryColor {
   color: #dffcf4;
 }
@@ -144,8 +140,8 @@ body {
   font-size: 30px;
 }
 .font-60 {
-    font-size: 60px;
-  }
+  font-size: 60px;
+}
 .bold-300 {
   font-weight: 300;
 }
@@ -205,61 +201,60 @@ a {
   text-decoration: none;
   color: #2d6675;
 }
-#github, #weather {
+#github,
+#weather {
   display: flex;
   justify-content: center;
 }
-.btn:hover, .nav ul li:hover {
-    background: #117bff;
-    cursor: pointer; 
-    transition: background .5s; 
-    
-  }
-  .list{
-    display: flex;
-    flex-direction: column;
-  }
-  .carousel {
-    width: 60%;
-    position: relative;
-    
+.btn:hover,
+.nav ul li:hover {
+  background: #117bff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.carousel {
+  width: 60%;
+  position: relative;
 }
 
-.directory, .fitness, .blog{
-    width: 100%;
-   
+.directory,
+.fitness,
+.blog {
+  width: 100%;
 }
-.footer{
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: rgb(47, 51, 51);
-    color: white;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(47, 51, 51);
+  color: white;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.linkContainer {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 350px) {
+  .carousel {
+    width: 200%;
   }
-  .linkContainer{
-    display: flex;
-    justify-content: space-around;
-  }
-@media screen and (max-width: 350px){
-    .carousel {
-        width: 200%;
-        
-    }
-    
 }
 @media screen and (max-width: 500px) {
   html,
   body,
   .jumbotronWork,
   .containerWork,
-  .aboutMePic, 
-  .cardsContainer, 
-  .cardsContainer2,  
-  .containerContact, 
+  .aboutMePic,
+  .cardsContainer,
+  .cardsContainer2,
+  .containerContact,
   .containerHome,
   .headerHome,
   .web,
@@ -268,11 +263,13 @@ a {
     margin: 5px;
     width: fit-content;
   }
-  .headerStyle, .contactPic {
+  .headerStyle,
+  .contactPic {
     display: flex;
     flex-direction: column;
   }
-  .containerSkills, .me {
+  .containerSkills,
+  .me {
     display: flex;
     flex-direction: column;
     float: left;
@@ -285,24 +282,25 @@ a {
   .containerMe {
     background-color: rgb(250, 219, 172);
     color: rgb(51, 49, 48);
+    font-size: smaller;
   }
   .carousel {
     width: 280px;
-}
-.inPink, .contactPic{
+  }
+  .inPink,
+  .contactPic {
     width: 200px;
     display: flex;
     flex-direction: column;
     float: left;
-}
-#img {
-   width: 80%
-}
-.footer {
+  }
+  #img {
+    width: 80%;
+  }
+  .footer {
     display: flex;
     flex-direction: column;
     float: left;
-   
   }
 }
 @media screen and (max-width: 780px) {
@@ -310,8 +308,7 @@ a {
   body,
   .jumbotronWork,
   .containerWork,
-  .aboutMePic,
-  .cardsContainer, 
+  .cardsContainer,
   .cardsContainer2,
   .containerContact {
     flex-direction: column;
@@ -329,37 +326,38 @@ a {
     flex-direction: column;
     float: left;
   }
-  .list, .skills-List {
+  .list,
+  .skills-List {
     font-size: x-large;
     flex-direction: column;
   }
-  
+
   .containerMe {
     background-color: rgb(236, 234, 234);
     color: rgb(3, 3, 82);
   }
   .carousel {
     width: 200%;
-}
-.inPink, .contactPic{
+  }
+  .inPink,
+  .contactPic {
     width: 300px;
     display: flex;
     flex-direction: column;
     float: left;
     margin-bottom: 15px;
-}
-  
+  }
 }
 @media screen and (max-width: 992px) {
-    html,
-    body,
-    .jumbotronWork,
-    .containerWork,
-    .aboutMePic {
-      flex-direction: column;
-    }
-    .carousel {
-        width: 100%;
-        /* flex-direction: column; */
-    }
+  html,
+  body,
+  .jumbotronWork,
+  .containerWork,
+  .aboutMePic {
+    flex-direction: column;
+  }
+  .carousel {
+    width: 100%;
+    /* flex-direction: column; */
+  }
 }

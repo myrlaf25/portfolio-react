@@ -19,34 +19,28 @@ function Contact() {
           style={{ marginTop: "30px", fontSize: "70px", color: "#ebfaf6" }}
         >
           Contact Me
+        </h3>
+      </div>
+
+      <div className="container textCenter" style={{ marginTop: "30px" }}>
+        <h4 className="bold-700 font-30">Myrla Flores</h4>
+        <h4 className="font-25">Phone: (520)245-9119</h4>
+        <h4 className="font-25">
+          Send me an email:{" "}
+          <a href="mailto:myrlaf25@gmail.com"> myrlaf25@gmail.com.</a>
+        </h4>
+
+        <h3 className="bold-700 textCenter font-30">
+          Thank you for stopping by!
+        </h3>
         <img
           className="ContactPic"
           style={styles.imageStyle}
           src={Me}
           alt="me"
         />
-        </h3>
-</div>
-
-
-      <div className="container textCenter" style={{ marginTop: "30px" }}>
-        
-          
-            <h4 className="bold-700 font-30">Myrla Flores</h4>
-            <h4 className="font-25">Phone: (520)245-9119</h4>
-            <h4 className="font-25">
-              Send me an email:{" "}
-              <a href="mailto:myrlaf25@gmail.com"> myrlaf25@gmail.com.</a>
-            </h4>
-
-            
-          <h3 className="bold-700 textCenter font-30">
-            Thank you for stopping by!
-          </h3>
-          </div>
-       
       </div>
-   
+    </div>
   );
 }
 
