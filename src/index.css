@@ -272,8 +272,7 @@ a {
   .me {
     display: flex;
     flex-direction: column;
-    float: left;
-    font-size: 30px;
+    font-size: 21px;
   }
   .list {
     font-size: 70px;
@@ -282,7 +281,6 @@ a {
   .containerMe {
     background-color: rgb(250, 219, 172);
     color: rgb(51, 49, 48);
-    font-size: smaller;
   }
   .carousel {
     width: 280px;
