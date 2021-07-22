@@ -18,7 +18,7 @@ function Footer() {
           <FontAwesomeIcon icon={faGithub} size="3x" />
         </a>
 
-        <a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:4221a4e5-c1d2-4c4a-8617-48f89ca713d7">
+        <a href="https://docs.google.com/document/d/1fDcnOEHPEfbN27_Aps3qWIHHWJ935EA0J0bP_z-MveQ/edit?usp=sharing">
           <FontAwesomeIcon icon={faFile} size="3x" />
         </a>
       </div>
